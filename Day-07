@@ -1,0 +1,11 @@
+🚀 Day 7 of #100DaysOfCode Challenge 🚀
+
+Today, I dived deeper into HTTP and gained a solid understanding of some key concepts:
+
+🌐 URL Structure: How URLs are structured and how they serve as the foundation of the web.
+
+📋 Status Codes: Learned about various HTTP status codes like:
+
+    400 Bad Request: When the server can't process the request due to a client error.
+    401 Unauthorized: Authentication required for access.
+    ...and many others!
