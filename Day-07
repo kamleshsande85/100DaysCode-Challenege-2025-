@@ -10,3 +10,14 @@ Today, I dived deeper into HTTP and gained a solid understanding of some key con
     401 Unauthorized: Authentication required for access.
     ...and many others!
 🍪 Cookies: Explored how cookies work, their purpose, and how they manage user sessions and preferences.
+💻 HTTP Methods:
+
+    GET: Retrieve data.
+    POST: Send data.
+    PUT: Update data.
+    DELETE: Remove data.
+
+🔒 HTTP vs. HTTPS:
+
+    HTTP: Data is sent in plain text, making it vulnerable to interception.
+    HTTPS: Data is encrypted using SSL/TLS, ensuring secure communication and protecting sensitive information.
