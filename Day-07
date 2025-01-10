@@ -9,3 +9,4 @@ Today, I dived deeper into HTTP and gained a solid understanding of some key con
     400 Bad Request: When the server can't process the request due to a client error.
     401 Unauthorized: Authentication required for access.
     ...and many others!
+🍪 Cookies: Explored how cookies work, their purpose, and how they manage user sessions and preferences.
