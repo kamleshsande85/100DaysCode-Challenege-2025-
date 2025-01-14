@@ -1,3 +1,10 @@
 🌟 Day 11 of #100DaysOfCode: Exploring WiFi Hacking Basics! 🖧🔐
 
 Today, I dived into the fascinating world of WiFi hacking and learned how to use various tools and commands from the Aircrack-ng suite. It's incredible to see how ethical hackers analyze and secure wireless networks. Here's what I covered:
+🔍 Key Tools & Commands:
+
+    airmon-ng: Setting up monitor mode on my wireless adapter.
+    airodump-ng: Capturing packets and analyzing network details.
+    aireplay-ng: Performing deauthentication attacks to capture handshakes.
+    aircrack-ng: Attempting to crack the WiFi password from captured handshakes.
+
