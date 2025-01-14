@@ -8,3 +8,8 @@ Today, I dived into the fascinating world of WiFi hacking and learned how to use
     aireplay-ng: Performing deauthentication attacks to capture handshakes.
     aircrack-ng: Attempting to crack the WiFi password from captured handshakes.
 
+⚙️ Understanding Flags & Terms:
+
+    --bssid: Targeting specific networks by their unique BSSID.
+    -c: Setting channels for focused monitoring.
+    -w: Saving captured packets to a file for analysis.
