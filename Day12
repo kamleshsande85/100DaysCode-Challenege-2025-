@@ -31,3 +31,9 @@ When you type a URL into your browser:
     The query goes through:
         Root Name Server 🡪 TLD Name Server 🡪 Authoritative Name Server.
     Finally, the server resolves the domain name to its IP address and connects you to the website
+
+📚 This was an eye-opening session! DNS is the backbone of the internet, making our browsing seamless without us realizing it.
+
+💡 Have you explored how DNS works? Drop your insights or questions below!
+
+#100DaysOfCode #DNS #CyberSecurity #LearningEveryday #NetworkingBasics #TechJourney
