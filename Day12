@@ -20,3 +20,14 @@ DNS is like the internet’s phonebook. It translates human-readable domain name
     AAAA Record: Maps domain names to IPv6 addresses.
     CNAME Record: Alias for another domain (e.g., www pointing to the root domain).
     TXT Record: Stores text-based information, often used for security protocols like SPF and DKIM.
+
+
+🔍 What Happens When You Request a Website?
+
+When you type a URL into your browser:
+
+    The request checks the local DNS cache.
+    If not found, it queries a recursive DNS server.
+    The query goes through:
+        Root Name Server 🡪 TLD Name Server 🡪 Authoritative Name Server.
+    Finally, the server resolves the domain name to its IP address and connects you to the website
