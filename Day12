@@ -1,3 +1,7 @@
 🌟 Day 12/100: DNS Demystified! 🌟
 
 Today, I deep-dived into one of the most fundamental concepts of the internet: DNS (Domain Name System). It’s incredible how this invisible system works tirelessly behind the scenes to connect us to our favorite websites! Here's what I learned:
+
+🚀 What is DNS?
+
+DNS is like the internet’s phonebook. It translates human-readable domain names (like example.com) into IP addresses (like 192.168.1.1) so computers can understand and communicate.
