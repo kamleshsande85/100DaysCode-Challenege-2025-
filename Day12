@@ -5,3 +5,10 @@ Today, I deep-dived into one of the most fundamental concepts of the internet: D
 🚀 What is DNS?
 
 DNS is like the internet’s phonebook. It translates human-readable domain names (like example.com) into IP addresses (like 192.168.1.1) so computers can understand and communicate.
+
+🧠 Types of DNS Levels:
+
+    Root Level: The starting point for DNS queries, directing requests to the correct TLD server.
+    TLD (Top-Level Domain): Handles domains like .com, .org, .net, etc.
+    Second-Level Domain: The part of the domain name you register (e.g., example in example.com).
+    Subdomains: Additional subdivisions of a domain (e.g., blog.example.com).
