@@ -12,3 +12,11 @@ DNS is like the internet’s phonebook. It translates human-readable domain name
     TLD (Top-Level Domain): Handles domains like .com, .org, .net, etc.
     Second-Level Domain: The part of the domain name you register (e.g., example in example.com).
     Subdomains: Additional subdivisions of a domain (e.g., blog.example.com).
+
+
+📝 DNS Record Types I Explored:
+
+    A Record: Maps domain names to IPv4 addresses.
+    AAAA Record: Maps domain names to IPv6 addresses.
+    CNAME Record: Alias for another domain (e.g., www pointing to the root domain).
+    TXT Record: Stores text-based information, often used for security protocols like SPF and DKIM.
