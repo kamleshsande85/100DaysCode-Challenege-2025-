@@ -1,3 +1,5 @@
 🔥 Day 13/100 - hashtag#100DaysOfCode 🔥
 Today was all about strengthening my foundation in cybersecurity principles! 💻🔐
 
+Here’s what I covered:
+✅ ISO/IEC 19249:2017: Explored five architectural principles (Domain Separation, Layering, Encapsulation, Redundancy, and Virtualization) and five design principles (Least Privilege, Attack Surface Minimization, Centralized Parameter Validation, Centralized General Security Services, and Error & Exception Handling). These principles provide a strong framework for designing secure solutions.
