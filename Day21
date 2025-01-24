@@ -4,4 +4,6 @@ Today, I explored the Network Services room on TryHackMe to enhance my cybersecu
 
 Learned about SMB (Server Message Block) and its vulnerabilities, including how attackers exploit misconfigured shares.
 
-Gained hands-on experience with enumeration tools like nmap and enum4linux to gather valuable information on open ports, services, and potential attack vectors.
+Gained hands-on experience with enumeration tools like nmap and enum4linux to gather valuable information on open ports, services, and potential attack vectors.Practiced using smbclient for accessing SMB shares and uncovering sensitive files.
+
+Started understanding Telnet protocol, its weaknesses, and why SSH is its secure replacement.
