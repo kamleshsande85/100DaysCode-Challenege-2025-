@@ -1,2 +1,7 @@
 💻 Day 22: #100DaysOfCode 🚀
 Today, I explored the Network Services room on TryHackMe to enhance my cybersecurity skills. 🔐
+📌 Key Highlights:
+
+Learned about SMB (Server Message Block) and its vulnerabilities, including how attackers exploit misconfigured shares.
+
+Gained hands-on experience with enumeration tools like nmap and enum4linux to gather valuable information on open ports, services, and potential attack vectors.
