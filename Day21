@@ -7,3 +7,15 @@ Learned about SMB (Server Message Block) and its vulnerabilities, including how 
 Gained hands-on experience with enumeration tools like nmap and enum4linux to gather valuable information on open ports, services, and potential attack vectors.Practiced using smbclient for accessing SMB shares and uncovering sensitive files.
 
 Started understanding Telnet protocol, its weaknesses, and why SSH is its secure replacement.
+🛠️ Takeaways:
+
+Enumeration is crucial in identifying vulnerabilities and attack surfaces.
+
+Misconfigurations, like allowing anonymous SMB access, can be major security risks.
+
+Importance of tools like nmap for reconnaissance and enum4linux for detailed SMB enumeration.
+
+
+Every day brings new challenges and growth in my cybersecurity journey! 💡 Looking forward to diving deeper into these concepts tomorrow.
+
+#CyberSecurity #TryHackMe #Networking #EthicalHacking #Day22 #KeepLearning #100DaysOfCyber
