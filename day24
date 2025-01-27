@@ -11,3 +11,9 @@ Backend: Flask (with various helpful modules).
 Tools: GitHub Copilot for accelerating coding and brainstorming solutions.
 🛠️ Challenges & Time Investment:
 This project demanded a lot of effort—debugging the scraping functionality, connecting the frontend with the backend, and ensuring the outputs are formatted and accurate. Although it’s not fully polished yet, I'm thrilled with the 80% progress so far!
+💡 Next Steps:
+1️⃣ Fixing the remaining backend logic to ensure consistent data scraping.
+2️⃣ Refining the UI for better usability.
+3️⃣ Testing edge cases to make the tool as reliable as possible.
+I’ve learned so much about web scraping, backend integration, and UI design throughout this project. Would love to hear feedback or tips from this amazing community!
+hashtag#100DaysOfCode hashtag#WebScraping hashtag#Flask hashtag#WebDevelopment hashtag#CodingJourney hashtag#LearningEv
