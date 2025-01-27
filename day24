@@ -1,3 +1,7 @@
 🚀 Day 24/100 of hashtag#100DaysOfCode Challenge 🚀
 Super excited to share progress on my latest project! 🎉 Here's what it does:
+🔍 What the project does:
+The tool takes a URL as input (e.g., YouTube, TikTok, Instagram, or Facebook) and scrapes data like:
+Follower/Following information from homepages.
+Details like names, contacts, locations, and activity from post pages (e.g., comments or likes).
 
