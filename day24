@@ -5,3 +5,9 @@ The tool takes a URL as input (e.g., YouTube, TikTok, Instagram, or Facebook) an
 Follower/Following information from homepages.
 Details like names, contacts, locations, and activity from post pages (e.g., comments or likes).
 
+💻 Technologies Used:
+Frontend: HTML, CSS (designed using Figma for planning the UI).
+Backend: Flask (with various helpful modules).
+Tools: GitHub Copilot for accelerating coding and brainstorming solutions.
+🛠️ Challenges & Time Investment:
+This project demanded a lot of effort—debugging the scraping functionality, connecting the frontend with the backend, and ensuring the outputs are formatted and accurate. Although it’s not fully polished yet, I'm thrilled with the 80% progress so far!
