@@ -1,3 +1,9 @@
 🚀 Day 26/100: Understanding Website Security & HTML Injection 🔥
 Today, I explored how websites work, from frontend rendering to backend processing. I also dived into web vulnerabilities, specifically HTML Injection, which can be exploited if user input isn't sanitized properly.
 
+💡 Key Takeaways:
+🔹 Websites consist of HTML, CSS, and JavaScript to create interactive experiences.
+🔹 JavaScript allows dynamic updates, making websites responsive.
+🔹 Sensitive Data Exposure can occur when developers accidentally leave login credentials or hidden links in the page source.
+🔹 HTML Injection is a serious vulnerability that allows attackers to manipulate webpage content, potentially injecting malicious links.
+🛡️ Security Tip: Always sanitize user input to prevent unwanted code execution!
