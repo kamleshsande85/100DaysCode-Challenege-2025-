@@ -7,3 +7,6 @@ Today, I explored how websites work, from frontend rendering to backend processi
 🔹 Sensitive Data Exposure can occur when developers accidentally leave login credentials or hidden links in the page source.
 🔹 HTML Injection is a serious vulnerability that allows attackers to manipulate webpage content, potentially injecting malicious links.
 🛡️ Security Tip: Always sanitize user input to prevent unwanted code execution!
+
+💬 Have you ever come across a security vulnerability while browsing? Let’s discuss! 👇
+hashtag#CyberSecurity hashtag#WebSecurity hashtag#EthicalHacking hashtag#100DaysOfCode hashtag#BugBounty hashtag#W
