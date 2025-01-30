@@ -3,3 +3,7 @@
 Today, I explored how web requests work behind the scenes! 🌐💻
 ✅ Learned about DNS, HTTP, and how browsers fetch and render websites.
 ✅ Understood the role of Load Balancers in handling high traffic.
+
+✅ Discovered how CDNs improve website speed and efficiency.
+✅ Explored Web Application Firewalls (WAFs) and their role in cybersecurity.
+✅ Studied Web Servers, including Apache, Nginx, and IIS, and their handling of static vs. dynamic content.
