@@ -1,3 +1,15 @@
 🚀 #100DaysOfCode – Day 28: Quiz Web Application 🎯
 
 Excited to share my latest project – a Quiz Web Application! 🎉 This interactive platform allows users to test their knowledge on various topics, track scores, and engage in a fun learning experience.
+
+🔥 Key Features:
+
+✅ Dynamic Questions: Fetches questions from a database/API 📚
+
+✅ Real-time Score Tracking: Get instant feedback after each answer 📊
+
+✅ Responsive Design: Works seamlessly on all devices 📱
+
+✅ Secure Backend: User authentication and data storage 🔐
+
+✅ Tech Stack: HTML, CSS, JavaScript, Flask , SQLite
