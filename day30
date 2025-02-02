@@ -7,3 +7,13 @@ In this module, I developed a fully functional Quiz Application that allows user
 ✅ Timed Quizzes – Users can challenge themselves with time-based questions.
 ✅ Leaderboards – Compete with others and see who scores the highest.
 ✅ User-Friendly Interface – A clean and intuitive design for a seamless experience.
+
+Technologies Used:
+Frontend: HTML, CSS, JavaScript (for interactive elements)
+Backend: Python (Flask for server-side logic)
+Database: SQLite (to store user data and quiz results)
+
+🔗 You can access the full project and design here:
+https://lnkd.in/d9Kw9f3Z
+Feel free to check it out, download the files, and explore the functionality I’ve built. 💻
+hashtag#100DaysOfCode hashtag#Module3 hashtag#CompletedProject hashtag#QuizApp hashtag#WebDevelopment
