@@ -2,3 +2,8 @@
 As part of my cybersecurity learning journey, I recently dived into Penetration Testing—a crucial process used to assess and strengthen security defenses. Understanding the ethics, methodologies, and frameworks behind ethical hacking is key to responsibly identifying vulnerabilities and securing systems.
 Here’s what I covered:
 
+🔹 Penetration Testing Basics – Simulating real-world attacks to improve security.
+🔹 Ethical Hacking Categories – White Hat, Grey Hat, and Black Hat.
+🔹 Rules of Engagement (ROE) – Defining scope, permissions, and rules before testing.
+🔹 Testing Methodologies – OSSTMM, OWASP, NIST, and NCSC CAF.
+🔹 Penetration Testing Stages – From information gathering to post-exploitation.
