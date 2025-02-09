@@ -1,3 +1,10 @@
 🚀 Day 37 of hashtag#100DaysOfCode – Active Reconnaissance & Networking Tools!
 Today, I explored Active Reconnaissance, a crucial phase in cybersecurity that involves interacting with the target system to gather information. 🔍
 
+💡 Key Commands Learned:
+✅ ping – Check if a host is reachable 📡
+✅ traceroute – Map the path of packets through networks 🌍
+✅ telnet – Connect to remote systems and test open ports 🔌
+✅ netcat (nc) – The Swiss Army knife for networking! Used for scanning, banner grabbing, and even reverse shells! 🛠️
+
+
