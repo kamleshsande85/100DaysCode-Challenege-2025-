@@ -1,3 +1,7 @@
 🚀 Day 38/100 hashtag#100dayscode - Mastering Passive Reconnaissance & OSINT! 🚀
 Today, I explored passive reconnaissance, a crucial step in ethical hacking where you gather intel without directly touching the target—staying stealthy while collecting valuable data!
 
+🔍 What I Learned:
+✅ The power of WHOIS, nslookup, and dig for DNS enumeration
+✅ How tools like DNSDumpster & Shodan reveal hidden insights
+✅ The importance of OSINT in cybersecurity
