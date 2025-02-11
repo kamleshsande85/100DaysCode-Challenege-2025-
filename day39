@@ -1,3 +1,9 @@
 🚀 Day 39 of hashtag#100DaysOfCode – Exploring Nmap! 🚀
 Today was all about Nmap, one of the most powerful tools in cybersecurity! 🔍💻
 🔑 Key Learnings & Practical Work:
+
+✅ Deploying Nmap switches for efficient scanning
+✅ TCP Connect, SYN Scan, UDP Scan, NULL, FIN, and Xmas Scans 🔥
+✅ Working with Nmap Scripting Engine (NSE) to automate tasks
+✅ Firewall evasion techniques to bypass security restrictions
+✅ Solving practical challenges & hands-on rooms to apply knowledge
