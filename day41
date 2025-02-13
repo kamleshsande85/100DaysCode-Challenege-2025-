@@ -1,3 +1,9 @@
 🔐 Day 41 of hashtag#100DaysOfCode – Deep Dive into Metasploit! 🚀
 Today, I explored Metasploit, one of the most powerful penetration testing frameworks. Here’s what I learned:
 
+🔹 Searching for Exploits & Modules – Finding Apache-related exploits and auxiliary modules.
+🔹 Setting Global Variables – Configuring target IPs globally to streamline testing.
+🔹 Payload Management – Understanding self-contained payloads (singles) and how to unset them.
+🔹 Exploitation Phase – Executing exploits efficiently using the right commands.
+🔹 SSH Brute Force Module – Using auxiliary/scanner/ssh/ssh_login by hdm (H.D. Moore) to test SSH authentication.
+🔹 Running Exploits in the Background – Using job-based execution for persistent sessions.
