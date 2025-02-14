@@ -4,3 +4,12 @@ Today, I explored CSS Flexbox & Grid, two powerful layout techniques! 🎨
 
 🔹 Flexbox – Best for 1D layouts (row or column).
 🔹 Grid – Best for 2D layouts (rows & columns).
+
+Key Flexbox Properties:
+
+✅ display: flex; → Enables flex container
+✅ justify-content → Aligns items horizontally (center, space-between, space-around, etc.)
+✅ align-items → Aligns items vertically (flex-start, center, stretch, etc.)
+✅ flex-wrap → Allows wrapping (nowrap, wrap, wrap-reverse)
+✅ align-self → Adjusts individual item alignment
+✅ gap → Adds spacing between items
