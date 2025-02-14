@@ -13,3 +13,13 @@ Key Flexbox Properties:
 ✅ flex-wrap → Allows wrapping (nowrap, wrap, wrap-reverse)
 ✅ align-self → Adjusts individual item alignment
 ✅ gap → Adds spacing between items
+
+Key Grid Properties:
+
+✅ display: grid; → Enables grid container
+✅ grid-template-columns / rows → Defines column & row sizes (repeat(3, 1fr))
+✅ gap → Adds spacing between grid items
+✅ grid-area → Names areas for placement
+✅ justify-items / align-items → Aligns content in grid items
+✅ place-items → Shortcut for both justify-items & align-items
+✅ grid-auto-flow → Controls item placement (row, column, dense)
