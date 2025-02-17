@@ -1,2 +1,7 @@
 🚨 Day45 hashtag#100dayscode Digital Forensics & Incident Response (DFIR): An Introduction 🚨
 Today, I completed an introductory module on DFIR, diving deep into this critical aspect of cybersecurity. It's fascinating to learn how DFIR professionals use forensic analysis to investigate security incidents and mitigate future risks.
+Key Takeaways:
+
+    DFIR is crucial for identifying digital evidence, understanding attacker behavior, and restoring systems to normal after a breach.
+    Incident Response (IR) involves steps like Identification, Containment, Eradication, and Recovery. It's essential to leverage Digital Forensics to effectively identify and manage incidents.
+    Tools like Autopsy, Volatility, KAPE, and others are invaluable for streamlining DFIR tasks.
