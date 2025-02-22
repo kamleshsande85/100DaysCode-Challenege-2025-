@@ -2,3 +2,8 @@
 
 Today, I explored IPTables, a powerful firewall utility in Linux used for packet filtering and network security. 🛡️ It allows administrators to define rules for allowing or blocking traffic based on IP addresses, ports, and protocols.
 
+    🔹 Key Features of IPTables:
+✅ Controls inbound and outbound traffic
+✅ Protects against unauthorized access
+✅ Helps in setting up NAT (Network Address Translation)
+✅ Can block specific IPs or allow only trusted connections
