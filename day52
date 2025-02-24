@@ -1,3 +1,8 @@
 🚀 Day 52 of hashtag#100DaysOfCode Challenge 🚀
 Today, I started cloning Flipkart and worked on setting up the project structure, styling components, and fixing errors in React. It was a productive day, and I tackled several challenges along the way.
 
+🔍 Key Takeaways:
+✅ Setup Issues: Faced an error with @mui/material, but resolved it by checking dependencies and reinstalling the package.
+✅ ESLint Warnings: Encountered unused variables in Searchbar.jsx, which I fixed by ensuring proper usage of styled components.
+✅ Styled Components Debugging: Fixed CSS issues in styled(Box) components and corrected property names like text-align instead of text-aling.
+✅ Navbar Implementation: Structured the navigation bar using mapped data and improved the layout.
