@@ -2,3 +2,5 @@ Day 57/100 – Phishing Analysis Fundamentals
 
 Cybersecurity is a continuous learning journey, and today I explored Phishing Analysis Fundamentals on TryHackMe.
 
+Understanding email components is crucial in detecting phishing attempts. This module covered how to analyze email headers, spot malicious links, and recognize common red flags in phishing emails.
+
