@@ -1,3 +1,8 @@
 🚀 hashtag#Day63/100: Deep Dive into Switching in LAN 🌐
 Today, I explored packet switching in LANs and how data flows through different network devices. The image below illustrates how a packet travels from 192.168.10.100 to 172.16.12.101 through multiple routers and switches. 🔄
 
+🔍 Key Learnings:
+ ✅ MAC Address Changes: At each hop, the source & destination MAC addresses change while the IP addresses remain the same.
+ ✅ Routing Across Networks: Data travels through multiple networks, transitioning from private to public IPs and back to private.
+ ✅ Encapsulation & Decapsulation: Each router removes the old L2 (Data Link) header and assigns a new one for the next hop.
+ ✅ Switching & Forwarding: Switches make forwarding decisions based on MAC addresses, while routers use IP addresses.
