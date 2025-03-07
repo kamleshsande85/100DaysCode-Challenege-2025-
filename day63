@@ -12,3 +12,317 @@ Today, I explored packet switching in LANs and how data flows through different 
  Understanding switching and routing at this level is crucial for cybersecurity, ethical hacking, and network troubleshooting. Each packet carries valuable insights about network behavior, and mastering this knowledge can enhance security and performance optimization.
 💡 Have you worked with network packet analysis or switching concepts? Let’s discuss in the comments! 👇
 #Networking hashtag#CyberSecurity hashtag#Switching hashtag#Routing hashtag#LAN hashtag#EthicalHacking hashtag#NetworkEngineering hashtag#CCNA hashtag#100dayscode
+✅ React kya hai?  
+
+    React ke javascript librari hai jiska use frontenet development me kiya jaata hain , ishse facebook ne banaya tha  
+
+        Whay react  
+
+            Componet base architecture – ishme ham chhotti chhotti block build karte hain jisse componnet kahate hain unko mila karkr ham ek badi UI banate hain  
+
+            Virtual DOM – performanace fast hoti hain kyuki necessary changes dom me apply hoti hain  
+
+            Reusable – code ko ham reusable kar sakte hain jo ishki performanace ko fast karti hain  
+
+            Aur easy bananti hain 
+
+✅ Create React App setup  
+
+ 
+
+    Sabse pahle hame yah check karna hain ki hamare system node.js hain ki nahi : yeh karne ke liye ham node –v ka use karenege aur package manager ko check karne ke liye ham nmp –v ka use karenege   
+
+        Node – yeh ek javascript runtime environment hain jo hame backend developmen , server side develompment me help karta hain  
+
+        Nmp – yeh packet manager hain jo hamen javasdcript ki diffrenet diffrenet librarrie aur packeges hain  ko install aur manage karne me help karta hain  
+
+        Node –v ka use karke ham node ka version check kar sakte hain  
+
+        Nmp –v ka use karke ham nmp ka version check kar sakte hain  
+
+    Create react app  
+
+        Npx Create-react-app my-aap 
+
+        Cd my-app 
+
+        Npm start 
+
+    Itna karene se agar sab kuch sahi raha toh browser me react app suru ho jayega  
+
+     
+
+✅ Folder structure samajhna yaha se suru karte hain 
+
+    Folder structure 
+
+        Node-module – isme sare dependenssy aur script hote hain  
+
+        Public / ishme sare static files hote hain like index.html  
+
+        Src / ishme sare react ke component hote hain like app.jsx, index.js  
+
+        Package.json / ishme saaare dependenci aur liste hotre hain jab ham apne project ko deploy karte hain ya koi aur use karta hain toh who in dependeb=nccy ko install kar sakta hin  
+
+    📂 my-app/ 
+    ├── 📂 node_modules/ → Dependencies store hoti hain 
+    ├── 📂 public/ → Static files jaise index.html 
+    │ ├── index.html → Yahi file browser me dikhti hai 
+    ├── 📂 src/ → Yahan sara React ka main code hota hai 
+    │ ├── App.js → Main component 
+    │ ├── index.js → Root file jo React app ko render karti hai 
+    ├── package.json → Dependencies aur scripts 
+
+ 
+
+ 
+
+ 
+
+📌 index.js – Entry Point of React App 
+
+index.js React app ka entry point hota hai. Ye React ko DOM me inject karta hai. 
+
+🔹 Location: src/index.js 
+🔹 Purpose: App ko browser me render karn 
+
+ 
+
+ 
+
+Yeh sara materiasl jo hot ahin who index.js me hota hain jo ki src/me hota hain 
+
+ 
+
+ 
+
+import React from "react";     // react use karne ke liye 
+
+import ReactDOM from "react-dom/client"; 
+
+import App from "./App";  // main compone ko inject karne ke liye  
+
+React app ko use karne ke liye hamne react treactDom ko import kiya  
+
+ 
+
+  
+
+const root = ReactDOM.createRoot(document.getElementById("root"));   yaha tak hamne rewact app jo hain ushko root me inject kiya  
+
+root.render( 
+
+  <React.StrictMode> 
+
+    <App /> 
+
+  </React.StrictMode> 
+
+); 
+
+Yaha tak hamne main componnet hain uhsko root me inject kiya  
+
+ 
+
+🚀 Breakdown 
+
+✅ React & ReactDOM import kiya – React ka use karne ke liye 
+✅ App.js ko import kiya – Ye main component hai 
+✅ root.createRoot() – React app ko index.html me inject kar raha hai 
+✅ root.render(<App />) – App component ko render kar raha hai 
+✅ React.StrictMode – Development ke liye extra warnings deta hai 
+
+ 
+
+📌 App.js – Main Component 
+
+Ye React app ka main component hota hai, jo UI define karta hai. 
+
+🔹 Location: src/App.js 
+🔹 Purpose: UI ko define karna 
+
+ 
+
+import React from "react"; 
+
+import "./App.css"; 
+
+React ko use karne ke liye import kiya  
+
+function App() { 
+
+  return ( 
+
+    <div className="App"> 
+
+      <h1>Hello, React! 🚀</h1> 
+
+    </div> 
+
+  ); 
+
+} 
+
+ Yeh ek react komponet hain jo ki jsx me likh gaya hain javascript+html  like code  
+
+export default App; 
+
+Ab ishko main componete use kar saktahain 
+
+ 
+
+ 
+
+Propas and state 
+
+ 
+
+Propas jo hota hain aisha data hota hain jo kewal read only purpose ke liye use hota hain  
+
+Parent jo hot hai who ishe apne child ko pass karta hain  
+
+ 
+
+Propas ka use data bhejene ke liye hee nahi balki dynamic reusable banane ke liye bhi hot hai  
+
+ 
+
+State jo hota hai who data ko update kar sakta hain componet state ko data pass kartehain aur state jo hota hain who ushe update kar deta hain 
+
+ 
+
+Usestate  
+
+Ishe use karne ke liye hame react ka usestate librari import karna padata hain  
+
+ 
+
+Const [state_vatriable , statefunction ] = useState(0); 
+
+state_vatriable yeh ek varialbe hain jo bhi data updaet karna hai who ishme hoga  
+
+ 
+
+State_function yeh who functio n hai jisskkimadda se ham upfdate karenge karenge  
+
+ 
+
+Bas itna hee hain 
+
+Ishke alag alag combinationa bana ke ham aur use le sakte hain 
+
+ 
+
+Event Handling 
+
+Jab user koi button click karata hain mouse move movenement ya hover keybord some thing toh unsab keliye kuchh event listerner hote hain jo componneet ko update karte hain  (lick, type, submit, hover, etc.) troh ushe events ko handle karna event handling kahalata hain 
+
+ 
+
+React me jo events hote hain who camelCase me likhe jaate hain 
+
+onClick , onChanage , 
+
+ 
+
+Aur events ko handle karne wale function hote hain jo un event ko handle karte hain koi action perform karte hain 
+
+ 
+
+1️⃣ onClick Event (Button Click) ab ishko deep dive karte hain 
+
+ 
+
+Sabse basic event hain button click karna jaise ki mouse ka left button mouse ka right button  
+
+import React from 'react' 
+
+ 
+ 
+
+function Onclick() { 
+
+const ButtonClciked = () =>{ 
+
+alert("Hii button is clicked"); 
+
+} 
+
+return ( 
+
+<div> 
+
+<button onClick={ButtonClciked}>Click me for sshow magic</button> 
+
+</div> 
+
+) 
+
+} 
+
+ 
+ 
+
+export default Onclick 
+
+ 
+
+ 
+
+Kuchh is tarah hamen onClick event ko handle kiya  
+
+Direct function call nahi karna (handleClick()), warna auto execute ho jayega. Yeh dyan rakhana hain direct call nahi karna {} ishke andar bas pass kar dena hain taki auto execute na ho  
+
+ 
+
+2️⃣ onChange Event (Input Change) 
+
+Yeh event tab hota hain jab koi input filed me kuchh type karta hain like name and kuchh bhi toh ushe capture karna hota hain ushgke liye ham onChange event ka use karte hain 
+
+ 
+
+ 
+
+3️⃣ onSubmit Event (Form Submission) 
+
+Agar form submmit hota hain toh reload hone se bachhha ta hain 
+
+ 
+
+ 
+
+4️⃣ onMouseOver / onMouseOut (Hover Effects) 
+
+Jab mouse kisis element me chale jaaye ya hat jaye tob kya hoga ishko handle karne ke liye ham ish event ka use karte hain 
+
+ 
+
+ 
+
+5️⃣ onKeyPress / onKeyDown / onKeyUp (Keyboard Events) 
+
+Agar user koi key press kare toh ushka bhi event handle kar saktehain 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
