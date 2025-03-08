@@ -1,3 +1,6 @@
 🚀 Day 64 of hashtag#100DaysOfCode Challenge 🚀
 Today, I explored Subnetting and Supernetting in detail! 🌐💻
 
+📌 I solved two subnetting problems:
+ 🔹 First Problem: Dividing a Class C IP into two subnets and calculating essential details like the first and last IP, subnet mask, and broadcast address.
+ 🔹 Second Problem: Merging two Class C IPs into a larger network and computing all necessary IP details.
