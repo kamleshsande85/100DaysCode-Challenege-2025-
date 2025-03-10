@@ -1,3 +1,9 @@
  Day 66 of hashtag#100DaysOfCode 🚀
 Today, I dived deep into DHCP (Dynamic Host Configuration Protocol) and how it plays a crucial role in network management. 📡💻
 
+🔹 What I Learned:
+ ✅ Difference between Static vs. Dynamic IP allocation
+ ✅ DORA Process (Discover, Offer, Request, Acknowledge)
+ ✅ Steps to obtain an IP address dynamically
+ ✅ How to use ipconfig /all to view IP information on Windows
+ ✅ Reserving an IP for consistency
