@@ -6,3 +6,9 @@ Today’s learning session was all about network scanning, port analysis, and mo
  ✅ Port Analysis: Identifying open, closed, and filtered ports to assess security risks.
  ✅ SOHO Networks (Small Office/Home Office): Understanding their structure, security challenges, and best practices.
  ✅ Monitoring & Security Tools:
+ 🔹 Wireshark – Packet analysis for deep network visibility.
+ 🔹 SolarWinds – Network management and monitoring.
+🔍 Why This Matters?
+🔹 Proactive Security: Scanning and monitoring help detect threats before they escalate.
+ 🔹 Threat Detection & Response: Logs and traffic analysis help identify suspicious activity.
+ 🔹 SOHO Network Security: Small office/home office setups are often targeted due to weaker security controls—monitoring tools play a vital role in safeguarding them.
