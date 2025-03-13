@@ -2,3 +2,8 @@
 🚀 Day 69 of hashtag#100DaysOfCode Challenge – Monitoring Tools (Part 2)
 As I continue my journey in cybersecurity, today I explored SIEM (Security Information and Event Management) and Network Monitoring Tools! 🛡️
 
+🔍 Key Takeaways:
+ ✅ OSSIM (Open Source SIEM) – A powerful tool for security monitoring, log management, and incident response.
+ ✅ AlienVault SIEM – Integrates multiple security tools for threat detection, behavioral monitoring, and compliance auditing.
+ ✅ AirServer – A screen monitoring tool that works across Windows, macOS, iOS, Android, and Chromebook devices.
+ ✅ Acrylic Wi-Fi Analyzer – A wireless network monitoring tool with features like Wi-Fi scanning, signal strength analysis, packet capture, and security auditing.
