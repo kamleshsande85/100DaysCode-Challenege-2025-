@@ -1,3 +1,10 @@
 🚀 hashtag#Day71 of hashtag#100DaysOfCode – Exploring ES6! 🚀
 Today, I dived into ES6 (ECMAScript 2015) and explored some amazing features that make JavaScript more powerful and readable. Some key takeaways:
 
+✅ let & const – Block-scoped variables for better control
+ ✅ Arrow Functions (=>) – Shorter and cleaner function syntax
+ ✅ Template Literals – Easy string interpolation
+ ✅ Destructuring – Extract values from arrays & objects effortlessly
+ ✅ Spread & Rest Operators – Work with arrays & function parameters like a pro
+ ✅ Classes & Modules – Object-oriented approach & modular code structure
+ ✅ Promises – Asynchronous operations made easy
