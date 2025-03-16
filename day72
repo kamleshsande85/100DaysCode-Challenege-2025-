@@ -5,3 +5,10 @@
  ✅ MTTR (Mean Time to Repair): Average time taken to fix a system failure.
  ✅ MTBF (Mean Time Between Failures): Expected time between two system failures.
  ✅ Site Resiliency: The ability of an IT infrastructure to withstand and recover from failures.
+🔥 Types of DR Sites:
+ 🏁 Cold Site: Basic infrastructure, takes longer to set up after disaster.
+ ⚡ Warm Site: Partially configured with some essential services.
+ 🚀 Hot Site: Fully operational, minimal downtime in case of failure.
+🛠 Validation Testing: Regular testing of the DRP ensures readiness for real-world scenarios.
+💡 A well-prepared Disaster Recovery Plan is not a luxury, it’s a necessity! How does your organization handle disaster recovery? Let’s discuss in the comments! ⬇️
+hashtag#CyberSecurity hashtag#DisasterRecovery hashtag#BusinessContinuity hashtag#DRP hashtag#Infosec hashtag#100
