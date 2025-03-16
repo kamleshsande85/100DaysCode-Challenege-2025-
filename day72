@@ -1,3 +1,7 @@
 🚀 Day 72 | hashtag#100DaysOfCode Challenge
 🔹 Disaster Recovery Plan (DRP): Every organization needs a solid DRP to ensure business continuity in case of failures or cyber incidents. Here's a quick breakdown of key components:
  
+✅ RTO (Recovery Time Objective): Maximum time an application can be down before it impacts business.
+ ✅ MTTR (Mean Time to Repair): Average time taken to fix a system failure.
+ ✅ MTBF (Mean Time Between Failures): Expected time between two system failures.
+ ✅ Site Resiliency: The ability of an IT infrastructure to withstand and recover from failures.
