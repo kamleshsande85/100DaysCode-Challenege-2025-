@@ -3,3 +3,17 @@
 🔹 Topic: Network Redundancy - Active-Active vs. Active-Passive
 
 In networking, redundancy is critical for ensuring high availability and reliability. Today, I explored two key redundancy models:
+
+✅ Active-Passive:
+
+    Two devices are installed, but only one operates at a time.
+    If the primary device fails, the secondary takes over seamlessly.
+    Constant communication ensures real-time synchronization.
+    Simple and effective for failover scenarios.
+
+✅ Active-Active:
+
+    Both devices operate simultaneously, sharing the load.
+    More complex to design and manage, but improves performance.
+    Requires monitoring and traffic balancing.
+    Ideal for high-availability environments where uptime is crucial.
