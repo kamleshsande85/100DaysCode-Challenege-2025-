@@ -3,3 +3,19 @@
 Aaj maine Stateless Address Autoconfiguration (SLAAC) aur IPv6 ke Neighbor Discovery Protocol (NDP) ke bare me detail me study kiya. IPv4 ke comparison me, 
 IPv6 me address assignment kaafi automated hai aur bina kisi DHCP server ke bhi kaam kar sakta hai!
 🔍 Kya Seekha?
+
+✅ Router Solicitation (RS) & Router Advertisement (RA):
+🔹 Jab koi naya device (jaise ek workstation) network me aata hai, toh wo ek Router Solicitation (RS) message bhejta hai.
+🔹 Router ise dekhkar Router Advertisement (RA) message bhejta hai, jo us device ko batata hai ki kaunsa IPv6 prefix use karna hai.
+
+✅ IPv6 Address Configuration bina DHCP ke!
+🔹 IPv4 me DHCP server ki zaroorat hoti thi, jo har device ko ek IP assign karta tha.
+🔹 IPv6 me SLAAC ka use karke bina kisi server ke bhi self-configured IP mil sakti hai.
+
+✅ Duplicate Address Detection (DAD):
+🔹 Jab ek device apni IP set karta hai, toh DAD mechanism ensure karta hai ki koi duplicate IP na ho.
+🔹 Ye process network conflicts aur IP clashes ko prevent karta hai.
+
+✅ IPv6 me No Broadcasts, Only Multicast!
+🔹 IPv4 me broadcast messages kaafi common the, lekin ye network congestion ka reason bante the.
+🔹 IPv6 multicast use karta hai, jo sirf relevant devices ko messages bhejta hai. Isse network performance improve hoti hai.
