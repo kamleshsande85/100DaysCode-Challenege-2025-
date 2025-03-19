@@ -4,3 +4,13 @@ Aaj ka learning: Virtual Private Network (VPN) 🔐
 Aaj maine VPN (Virtual Private Network) ke baare me seekha, jo internet par secure aur private connection provide karta hai. Yeh ek encrypted tunnel create karta hai jo users ki data security aur privacy ensure karta hai.
 
 
+🔹 VPN Concentrator: Yeh ek device hai jo multiple VPN connections ko manage karta hai aur secure communication enable karta hai.
+
+🔹 Types of VPNs:
+✅ Client-to-Site VPN: Individual users ko secure access provide karta hai.
+✅ Site-to-Site VPN: Do ya zyada networks ko securely connect karta hai.
+✅ Clientless VPN: Browser-based VPN jo bina kisi software installation ke work karta hai.
+
+🔹 Tunneling Methods:
+✅ Split Tunnel: Sirf kuch traffic VPN ke through jata hai, baaki direct internet se connect hota hai.
+✅ Full Tunnel: Puri traffic VPN ke through route hoti hai, jo maximum security ensure karta hai.
