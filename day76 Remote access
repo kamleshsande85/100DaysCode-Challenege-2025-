@@ -2,3 +2,11 @@
 
 Aaj maine Remote Access ke important concepts ko detail me samjha! 💻🌍
 Remote access ka matlab hai kisi bhi system ya network ko door se access karna, manage karna aur control karna. Yeh alag-alag techniques aur protocols ke through kiya jata hai, jo security aur efficiency ke basis par choose kiye jate hain.
+🔥 Remote Access Methods & Their Use Cases
+🔹 SSH (Secure Shell) –
+ 🔸 Secure aur encrypted remote login protocol hai.
+ 🔸 Mostly Linux-based systems ko remotely access karne ke liye use hota hai.
+ 🔸 Public & Private key authentication bhi support karta hai.
+🔹 Telnet –
+ 🔸 Ek old-school remote login method hai jo plaintext me data send karta hai.
+ 🔸 Security risk ke wajah se modern systems me SSH iske replacement ke roop me use hota hai.
