@@ -6,3 +6,6 @@ Access Control: Role-Based Access Control (RBAC) lagaya, matlab har bande ko usk
 Geofencing: Location ke hisaab se access set kiya—jaise agar office ke bahar ho toh sensitive data ka gate bandh!
 PKI & Certificates: Certificate Authority banaya taaki encryption keys aur trust ka pura bandobast ho—like digital muhar lagao!
 Physical Security: CCTV aur biometric locks ke baare mein seekha—jaise ghar mein camera aur fingerprint lock lagate hai.
+Saath hi VS Code se direct GitHub pe code push kiya, Source Control tab se saare changes ekdum aasaan dikh gaye! 😎 UI ke liye soothing pastel colors try kiye: halka neela (#AEDFF7), mint green (#D4EFDF), peach (#FFE5D9), aur lavender (#E6E6FA).
+
+77 din ho gaye, aur yeh safar abhi chalu hai! 💪 Tum log apne projects ko kaise secure kar rahe ho? Chalo baat karte hai! #CyberSecurity #CodingJourney #WebDev #GitHub #LearnInPublic
