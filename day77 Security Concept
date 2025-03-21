@@ -9,3 +9,36 @@ Physical Security: CCTV aur biometric locks ke baare mein seekha—jaise ghar me
 Saath hi VS Code se direct GitHub pe code push kiya, Source Control tab se saare changes ekdum aasaan dikh gaye! 😎 UI ke liye soothing pastel colors try kiye: halka neela (#AEDFF7), mint green (#D4EFDF), peach (#FFE5D9), aur lavender (#E6E6FA).
 
 77 din ho gaye, aur yeh safar abhi chalu hai! 💪 Tum log apne projects ko kaise secure kar rahe ho? Chalo baat karte hai! #CyberSecurity #CodingJourney #WebDev #GitHub #LearnInPublic
+
+
+
+VIDEO transcript
+
+
+Video IT security concepts pe hai, data protection aur access control pe focus karta hai. Main points simple language mein:
+
+1. **Data Types**:  
+   - **Data in Transit**: Network pe transfer hota data (jaise internet ya LAN pe). Isko protect karne ke liye devices jaise firewalls, intrusion systems use hote hai. Encryption jaise TLS ya IPsec bhi use hota hai.
+   - **Data at Rest**: Storage mein saved data (hard drive, SSD). Isko full disk encryption, database encryption ya file/folder encryption se secure karte hai.
+
+2. **Access Control**:  
+   - **ACLs (Access Control Lists)**: Kaun data access kar sakta hai, yeh define karte hai.
+   - **IAM (Identity & Access Management)**: Data access ke liye permissions manage karna. Authentication (user verify karna), authorization (access dena), aur auditing (track karna) involve hota hai.
+   - **Least Privilege**: User ko sirf utna hi access do jitna job ke liye zaroori hai, zyada nahi.
+
+3. **Encryption & Certificates**:  
+   - **PKI (Public Key Infrastructure)**: Encryption keys aur certificates manage karne ka system. Yeh policies define karta hai certificates kaise banenge aur use honge.
+   - **Certificate Authority (CA)**: Certificates banata aur sign karta hai, taaki trust ban sake. Internal ya third-party CA ho sakta hai.
+   - **Web of Trust**: Centralized CA ke bajaye distributed trust system, jahan ek user doosre pe trust karta hai.
+
+4. **Role-Based Access Control (RBAC)**:  
+   - Users ko roles assign kiye jaate hai (jaise manager, employee), aur har role ke permissions alag hote hai. Windows mein groups se yeh manage hota hai.
+
+5. **Geofencing**:  
+   - Location-based access control. User kahan hai uske hisaab se permissions dete hai (jaise IP address, GPS ya Wi-Fi se location pata kar ke). Sensitive data ke liye useful, jaise sirf office mein access do.
+
+6. **Physical Security**:  
+   - **CCTV**: Cameras se monitoring, motion detection, facial recognition ya license plate reading ke liye.
+   - **Door Locks**: Traditional keys, electronic PINs, RFID badges ya biometrics (fingerprint, retina scan) use hote hai. Multi-factor authentication bhi hota hai (badge + PIN).
+
+**Overall**: Video data security ke basic concepts cover karta hai—data ka type, encryption, access control, aur physical security. Yeh sab ensure karta hai ke data safe rahe aur unauthorized access na ho. Kuch specific samajhna hai toh bolo! 😊
