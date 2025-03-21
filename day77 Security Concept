@@ -1,3 +1,8 @@
 🚀 Day 77 of hashtag#100DaysOfCode Challenge 💻
 Aaj maine IT security concepts ko explore kiya aur apne project mein implement kiya! 🔒 Yeh raha ek chhota sa breakdown :
 
+Data in Transit & At Rest: Network pe data bhejne ke waqt TLS/IPsec se secure kiya, aur storage mein full disk encryption daala—jaise apne data ka locker banaya!
+Access Control: Role-Based Access Control (RBAC) lagaya, matlab har bande ko uske kaam ke hisaab se hi data ka darwaza kholne ka haq diya. Least privilege ka rule: zaroori ho utna hi access, zyada nahi!
+Geofencing: Location ke hisaab se access set kiya—jaise agar office ke bahar ho toh sensitive data ka gate bandh!
+PKI & Certificates: Certificate Authority banaya taaki encryption keys aur trust ka pura bandobast ho—like digital muhar lagao!
+Physical Security: CCTV aur biometric locks ke baare mein seekha—jaise ghar mein camera aur fingerprint lock lagate hai.
