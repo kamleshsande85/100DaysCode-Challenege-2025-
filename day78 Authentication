@@ -5,3 +5,9 @@ Today, I deep-dived into Authentication and its critical role in cybersecurity. 
 ✅ Authentication – Prove your identity (Password/MFA)
 ✅ Authorization – What can you access?
 ✅ Accounting – Tracking user activity for security
+Some key technologies I explored:
+
+🔹 RADIUS & TACACS+ – Centralized authentication for networks
+🔹 SAML – Single sign-on (SSO) for seamless access
+🔹 LDAP & X.500 – Organizing users & devices in a directory service
+🔹 MFA – Enhancing security with multiple factors (password, biometrics, OTPs)
