@@ -1,3 +1,7 @@
 🔐 Day 78 of #100DaysOfCode – Understanding Authentication Concepts & Technologies 🔐
 
 Today, I deep-dived into Authentication and its critical role in cybersecurity. The foundation of secure access lies in the AAA framework (Authentication, Authorization, and Accounting), which ensures:
+✅ Identification – Who are you? (Username/Email)
+✅ Authentication – Prove your identity (Password/MFA)
+✅ Authorization – What can you access?
+✅ Accounting – Tracking user activity for security
