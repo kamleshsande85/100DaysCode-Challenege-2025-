@@ -13,3 +13,67 @@ Failure to comply can result in fines, legal consequences, or loss of business o
 🔍 As I continue my learning, I’d love to hear from you! Have you worked with GDPR, PCI DSS, or any other security compliance frameworks? Let’s discuss in the comments! 👇
 
 #CyberSecurity #EthicalHacking #Infosec #GDPR #PCIDSS #RegulatoryCompliance #LearningEveryDay #CompTIA #Networking #100DaysChallenge
+Got it, bro! Here’s a clear breakdown of Regulatory Compliance from CompTIA Network+ N10-009 - 4.1 in simple terms:
+What is Regulatory Compliance?
+
+Regulatory compliance means following laws, policies, and procedures set by governments, businesses, or industry regulators. If companies fail to comply, they might face:
+
+    Fines (penalties)
+
+    Jail time
+
+    Losing their jobs
+
+Different regulations exist depending on business type and location. Two major types covered in this topic are Data Localization and PCI DSS (Payment Card Industry Data Security Standard).
+1. Data Localization (Keeping data within a country)
+
+    What does it mean?
+    Some laws require that any data collected in a country must remain inside that country for security and privacy reasons.
+
+    Example: GDPR (General Data Protection Regulation)
+
+        A law by the European Union (EU) that protects user data privacy.
+
+        It applies to personal data like name, address, email, photos, bank info, and website visits.
+
+        Companies must store EU citizens' data within the EU unless specific conditions allow otherwise.
+
+        It also gives people control over their data, including the right to request data deletion.
+
+    Is it the same as "Right to be Forgotten"?
+
+        No. GDPR is more than just deleting data; it focuses on full data security and privacy.
+
+2. PCI DSS (Payment Card Industry Data Security Standard)
+
+    Who created it?
+
+        Major payment companies like Visa, MasterCard, and American Express.
+
+    Why was it made?
+
+        To protect credit card data from fraud, hacking, and unauthorized access.
+
+    The 6 Key Rules of PCI DSS:
+
+        Build and maintain secure networks
+
+        Protect cardholder data
+
+        Have a vulnerability management program
+
+        Implement strong access controls
+
+        Monitor and test networks regularly
+
+        Maintain an information security policy
+
+    What happens if a company doesn’t follow PCI DSS?
+
+        They can lose the ability to process credit card transactions.
+
+Conclusion
+
+Regulatory compliance is essential in IT security. GDPR ensures data privacy, while PCI DSS protects credit card transactions. Failing to comply can lead to legal issues, financial losses, and security risks.
+
+Let me know if you need more details! 🚀
