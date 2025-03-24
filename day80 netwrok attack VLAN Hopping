@@ -1,3 +1,7 @@
 🔐 Day 80/100 – VLAN Hopping & Network Security 🚀
 
 Today, I explored VLAN Hopping, a critical security vulnerability that allows attackers to bypass network segmentation and gain unauthorized access to other VLANs. Understanding these attacks is essential for securing network infrastructures!
+Two Main VLAN Hopping Techniques:
+
+🛑 Switch Spoofing – The attacker tricks a switch into thinking their device is another switch, gaining access to multiple VLANs.
+🛑 Double Tagging – The attacker sends specially crafted packets with two VLAN tags, allowing them to “hop” between VLANs without proper authorization.
