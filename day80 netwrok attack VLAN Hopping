@@ -17,3 +17,82 @@ How to Mitigate VLAN Hopping?
 💬 Have you encountered VLAN security challenges? Let’s discuss!
 
 #100DaysOfCode #CyberSecurity #Networking #VLANHopping #EthicalHacking #NetworkSecurity #Infosec #Learning #LinkedInTech
+VLAN Hopping Explained in Simple Terms
+
+
+
+
+
+
+
+VLAN hopping is a network attack where an attacker tricks network switches into letting them access different VLANs (Virtual Local Area Networks) that they shouldn’t have access to. There are two main ways this can happen:
+
+    Switch Spoofing
+
+    Double Tagging
+
+1. Switch Spoofing Attack
+
+👉 What is it?
+
+    Normally, network switches can automatically detect other switches and set up "trunk links" to carry data from multiple VLANs.
+
+    An attacker takes advantage of this by pretending to be a switch.
+
+👉 Step-by-step process:
+
+    Normal Setup – The network is set up with VLANs, and switches are configured to create trunk links when needed.
+
+    Attacker Connects – The attacker plugs their device into a switch port.
+
+    Switch Detection – The switch detects a new device and tries to figure out what it is.
+
+    Attacker Spoofs a Switch – The attacker’s device sends signals to the switch pretending to be another switch.
+
+    Trunk Negotiation – The switch mistakenly thinks it's talking to another switch and sets up a trunk link.
+
+    Access to Multiple VLANs – Since trunk links carry traffic for multiple VLANs, the attacker can now send and receive data across different VLANs.
+
+🛡 How to Prevent It?
+✔ Disable automatic trunking (set it manually).
+✔ Allow only necessary VLANs on trunk links.
+2. Double Tagging Attack
+
+👉 What is it?
+
+    This attack takes advantage of how VLAN tags (labels) are handled when data moves between switches.
+
+    The attacker sends a specially crafted packet with two VLAN tags, allowing them to "jump" from one VLAN to another.
+
+👉 Step-by-step process:
+
+    Normal Setup – VLANs are configured, and a trunk link exists between two switches.
+
+    Attacker’s Position – The attacker is on VLAN 10 and wants to send a packet to VLAN 20.
+
+    Crafting a Double-Tagged Packet – The attacker creates a packet with two VLAN tags:
+
+        Outer tag: VLAN 10 (attacker’s VLAN)
+
+        Inner tag: VLAN 20 (target VLAN)
+
+    First Switch Removes Outer Tag – Since VLAN 10 is the native VLAN, the first switch removes the outer tag and sends the packet to the next switch.
+
+    Second Switch Reads Inner Tag – The second switch now sees the inner tag (VLAN 20) and forwards it to VLAN 20.
+
+    Reaches the Target – The packet arrives at a device on VLAN 20.
+
+⚠ One-Way Attack – The attacker cannot receive responses because return traffic will be properly tagged. This attack is mainly used for denial-of-service (DoS) or injecting malicious packets.
+
+🛡 How to Prevent It?
+✔ Don’t use the default VLAN (VLAN 1) as the native VLAN.
+✔ Enforce tagging on all VLANs, even the native VLAN.
+Who is Involved?
+
+🧑‍💻 Network Administrator – The person responsible for setting up VLANs securely.
+🦹 Attacker – The hacker trying to gain unauthorized access to VLANs.
+🔌 Switch – The network device that connects everything and can be tricked.
+💻 Victim Device – The target machine on another VLAN.
+Conclusion
+
+VLAN hopping exploits weaknesses in switch configurations. Switch spoofing tricks a switch into opening a trunk link, while double tagging exploits VLAN tag processing. Proper security measures, such as disabling auto-trunking and enforcing VLAN tagging rules, can prevent these attacks. 🚀
