@@ -5,3 +5,12 @@ Two Main VLAN Hopping Techniques:
 
 🛑 Switch Spoofing – The attacker tricks a switch into thinking their device is another switch, gaining access to multiple VLANs.
 🛑 Double Tagging – The attacker sends specially crafted packets with two VLAN tags, allowing them to “hop” between VLANs without proper authorization.
+How to Mitigate VLAN Hopping?
+
+✅ Disable automatic trunk negotiation & manually configure trunk ports.
+✅ Change the default native VLAN and enforce tagging for all VLANs.
+✅ Implement Port Security, BPDU Guard, and VLAN access control lists (ACLs).
+✅ Regular security audits and penetration testing to identify vulnerabilities.
+
+🔎 Key Takeaway: VLAN Hopping is a real-world threat, but with the right configurations, we can prevent it! 🚀
+
