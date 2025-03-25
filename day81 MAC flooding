@@ -12,3 +12,76 @@ Grateful for this journey and the amazing tech community pushing me forward! Let
 Who else is diving deep into networking? Let’s connect! 🌍💬
 
 #Networking #Cisco #CCNA #NetworkEngineer #TechGrowth #KeepBuilding #100DaysChallenge #Day81
+
+
+
+
+Chalo, step-by-step samjhta hoon simple bhasha mein. Yeh timeline Ethernet switching aur MAC flooding attack ke baare mein hai.
+
+---
+
+### Normal Ethernet Switching Process
+Switch ka kaam devices ke beech data (frames) bhejna hai. Iske liye woh MAC address table banata hai.
+
+1. **Device Connect Hote Hain**  
+   - Jab devices (jaise Sam ka PC aur SGC server) switch se connect hote hain, switch ki MAC table khali hoti hai.
+
+2. **MAC Address Learning**  
+   - Sam ka PC (MAC: 1000:1111:1111) SGC server (MAC: 1000:5555:5555) ko data bhejta hai.  
+   - Switch yeh frame port F0/1 pe receive karta hai.  
+   - Switch dekhta hai source MAC (Sam ka) aur table mein add karta hai:  
+     `1000:1111:1111 -> F0/1`  
+   - Destination MAC (SGC server ka) table mein nahi hai, toh switch frame ko sab ports pe flood (broadcast) kar deta hai.
+
+3. **Bi-directional Communication**  
+   - SGC server reply karta hai. Switch uska frame receive karta hai (port F0/5 pe).  
+   - Switch SGC ka MAC table mein add karta hai:  
+     `1000:5555:5555 -> F0/5`  
+   - Ab table mein dono entries hain: Sam aur SGC server.
+
+4. **Directed Forwarding**  
+   - Agli baar Sam SGC ko data bhejta hai, switch table check karta hai.  
+   - SGC ka MAC pata hai (F0/5), toh frame sirf F0/5 pe bheja jata hai, flood nahi hota.
+
+5. **MAC Table Limitations**  
+   - MAC table ki capacity limited hoti hai.  
+   - Entries 5 minute tak rakhi jati hain. Agar is time mein MAC use nahi hota, entry delete ho jati hai.
+
+---
+
+### MAC Flooding Attack
+Yeh attack tab hota hai jab koi attacker switch ko confuse karne ki koshish karta hai.
+
+1. **Attacker Action**  
+   - Attacker bohot saare fake frames bhejta hai, har frame mein alag-alag spoofed (fake) source MAC address hota hai.  
+   - Switch har frame ke source MAC ko table mein add karta hai.
+
+2. **Table Full Ho Jati Hai**  
+   - Switch ki MAC table ki capacity khatam ho jati hai kyunki attacker ne bohot saare fake MAC bhar diye.
+
+3. **Switch Hub Ban Jata Hai**  
+   - Ab table mein jagah nahi, toh switch naye MAC addresses nahi seekh sakta.  
+   - Jab Sam jaise legitimate user ka frame aata hai aur destination MAC table mein nahi hota, switch usse sab ports pe flood kar deta hai (hub jaisa behave karta hai).
+
+4. **Consequences**  
+   - Jo data sirf SGC ke liye tha, woh ab sab devices tak jata hai, attacker ke device tak bhi.  
+   - Attacker is data ko capture karke dekh sakta hai (eavesdropping).
+
+---
+
+### Mitigation (Rokne ka Tareeka)
+**Port Security** use karo:  
+- Switch ke ports pe limit set karo ki ek port kitne MAC addresses seekh sakta hai.  
+- Isse attacker ek port se bohot saare fake MAC nahi bhej payega, aur table full nahi hogi.
+
+---
+
+### Summary of Characters
+- **Sam**: User jo SGC server se baat karta hai (MAC: 1000:1111:1111).  
+- **SGC Server**: Server jo Sam se baat karta hai (MAC: 1000:5555:5555).  
+- **Switch**: Device jo MAC table banata hai aur data forward karta hai.  
+- **Attacker**: Jo fake MAC addresses bhejke attack karta hai.
+
+---
+
+Ab samajh gaya? Switch normally smart hota hai, par MAC flooding se hub jaisa ban jata hai, aur attacker faida uthata hai. Port security se protect kar sakte ho. Aur kuchh poochna hai?
