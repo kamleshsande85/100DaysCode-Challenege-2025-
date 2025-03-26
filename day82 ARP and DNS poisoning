@@ -9,3 +9,8 @@ Today, I deep-dived into ARP and DNS Poisoning Attacks—two critical security t
 ✅ Attackers can use gratuitous ARP responses to redirect traffic.
 ✅ DNS poisoning can be executed via host file modifications, DNS server hacks, or MITM attacks.
 ✅ Combining ARP and DNS attacks creates powerful exploits for stealing data.
+💡 Learning about these vulnerabilities reinforces why network security is crucial in cybersecurity & ethical hacking. Time to explore mitigation strategies next! 🔥
+
+🔎 Have you encountered these attacks before? How do you defend against them? Let’s discuss! 👇
+
+#CyberSecurity #EthicalHacking #Networking #Infosec #100DaysOfHacking #CyberThreats #LinkedInTech
