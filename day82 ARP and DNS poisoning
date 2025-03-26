@@ -4,3 +4,8 @@ Today, I deep-dived into ARP and DNS Poisoning Attacks—two critical security t
 🔹 ARP Poisoning (IP Spoofing): Manipulates the Address Resolution Protocol to intercept and modify traffic, enabling Man-in-the-Middle (MITM) attacks.
 
 🔹 DNS Poisoning (DNS Spoofing): Redirects users to malicious websites by altering DNS records, often used for phishing and malware distribution.
+🔐 Key Takeaways:
+✅ ARP has no built-in authentication, making it a prime target.
+✅ Attackers can use gratuitous ARP responses to redirect traffic.
+✅ DNS poisoning can be executed via host file modifications, DNS server hacks, or MITM attacks.
+✅ Combining ARP and DNS attacks creates powerful exploits for stealing data.
