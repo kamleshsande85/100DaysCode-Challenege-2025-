@@ -4,3 +4,9 @@ Today, I explored the critical security threats posed by Rogue Services, such as
 🚨 Rogue DHCP Servers – Can distribute incorrect IP addresses, disrupting network connectivity.
 📡 Rogue Access Points & Evil Twins – Allow attackers to intercept sensitive data by mimicking legitimate networks.
 🕵️ On-Path Attacks (Man-in-the-Middle) – Hackers position themselves between two devices to steal or modify data.
+How to Defend Against These Threats?
+
+✅ DHCP Snooping – Prevents unauthorized DHCP servers from assigning IPs.
+✅ 802.1X Authentication – Ensures only trusted devices connect to the network.
+✅ Encryption (HTTPS, VPNs) – Protects data from interception.
+✅ Network Monitoring – Regularly scan for unauthorized devices.
