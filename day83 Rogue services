@@ -15,3 +15,86 @@ Cybersecurity is all about staying ahead of the threats! Today’s learning rein
 What security measures do you use to protect against rogue services? Let’s discuss! 👇
 
 #CyberSecurity #EthicalHacking #Networking #100DaysOfCode #Tech #Infosec #ManInTheMiddle #NetworkSecurity
+
+
+
+
+
+### **Understanding Rogue Services and On-Path Network Attacks**  
+
+This document explains how **rogue services** (like unauthorized DHCP servers and rogue access points) pose security risks and how **on-path network attacks (Man-in-the-Middle)** exploit them. Let's break it down step by step:
+
+---
+
+## **1. Rogue DHCP Servers: How They Disrupt Networks**
+### **🔴 The Risk**
+- **DHCP (Dynamic Host Configuration Protocol)** is used to assign IP addresses automatically.
+- If an attacker sets up a **rogue DHCP server**, it can:
+  - Hand out **incorrect IP addresses** (causing connectivity issues).
+  - Assign **invalid gateways** (preventing internet access).
+  - Cause **duplicate IPs**, leading to network failures.
+  
+**Example Attack:**  
+- Imagine a hacker connects a rogue DHCP server to your network.
+- It starts assigning **fake IP addresses** to users.
+- Now, users can’t communicate properly, and their traffic can be rerouted to the attacker.
+
+### **✅ Mitigation (How to Prevent)**
+1. **DHCP Snooping** – Ensures only trusted DHCP servers can send responses.
+2. **Active Directory Authorization** – Only allows **approved DHCP servers** to assign IPs.
+3. **Immediate Removal** – If detected, the rogue DHCP server should be removed, and devices must **renew their IPs**.
+
+---
+
+## **2. Rogue Access Points (APs) and Evil Twins**
+### **🔴 The Risk**
+- **Rogue APs** are unauthorized Wi-Fi devices connected to your network.
+- Even **well-intentioned employees** can accidentally create them.
+- If **improperly secured**, attackers can exploit them to gain unauthorized access.
+
+**⚠️ Wireless Evil Twins:**  
+- **Malicious APs** designed to mimic legitimate Wi-Fi networks.
+- **Tactics Used by Attackers:**
+  - Same **SSID (Wi-Fi name)** as a real access point.
+  - Higher **signal strength** to attract victims.
+  - Cloning **security settings** to appear genuine.
+
+### **✅ Mitigation (How to Prevent)**
+1. **802.1X Authentication (Network Access Control)** – Ensures only authorized devices connect.
+2. **Regular Wi-Fi Scans** – Identify rogue access points in the network.
+3. **User Awareness** – Employees should be trained **not to connect to unknown Wi-Fi networks**.
+
+---
+
+## **3. On-Path Network Attacks (Man-in-the-Middle)**
+### **🔴 The Risk**
+- When an attacker **positions themselves between two communicating devices**, intercepting and modifying data.
+- **Common Techniques:**
+  - **Evil Twin APs** (Capturing login credentials)
+  - **ARP Poisoning** (Tricking devices into sending traffic to the attacker)
+  - **Session Hijacking** (Stealing authenticated sessions)
+  - **HTTPS Spoofing** (Redirecting users to fake websites)
+  - **Wi-Fi Eavesdropping** (Monitoring unencrypted traffic)
+
+### **✅ Mitigation (How to Prevent)**
+1. **Encryption is Key!**  
+   - **VPNs** – Encrypt all traffic between your device and a VPN server.
+   - **HTTPS** – Ensures secure communication between browsers and websites.
+   - **End-to-End Encryption** – Protects messages and calls from interception.
+
+2. **Use Secure Wi-Fi Practices**
+   - **Never connect to public Wi-Fi without a VPN**.
+   - **Verify Wi-Fi SSIDs** before connecting.
+   - **Use Multi-Factor Authentication (MFA)** to protect online accounts.
+
+---
+
+## **🔑 Key Takeaways**
+✔ **Rogue DHCP Servers** can cause massive connectivity issues and should be prevented using **DHCP Snooping**.  
+✔ **Rogue Access Points** (including **Evil Twins**) are a major wireless security risk, and **802.1X authentication** helps prevent unauthorized access.  
+✔ **On-Path Attacks (MITM)** steal and modify network data, but using **encryption (VPN, HTTPS)** makes intercepted data useless to attackers.  
+✔ **User Awareness is Critical** – Users should avoid **unknown Wi-Fi networks** and always check for **secure HTTPS connections**.  
+
+---  
+
+Let me know if you need further clarification! 🚀
