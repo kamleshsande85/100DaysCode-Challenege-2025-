@@ -1,1 +1,6 @@
 🔒 Day 83/100: #100DaysOfCode – Understanding Rogue Services in Cybersecurity 🔥
+Today, I explored the critical security threats posed by Rogue Services, such as:
+
+🚨 Rogue DHCP Servers – Can distribute incorrect IP addresses, disrupting network connectivity.
+📡 Rogue Access Points & Evil Twins – Allow attackers to intercept sensitive data by mimicking legitimate networks.
+🕵️ On-Path Attacks (Man-in-the-Middle) – Hackers position themselves between two devices to steal or modify data.
