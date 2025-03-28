@@ -11,3 +11,36 @@ Today, I explored social engineering attacks and how they exploit human psycholo
 Cybersecurity is not just about technology but also about awareness and good security practices. Let’s stay vigilant and protect our data! 🔒💻
 
 #CyberSecurity #EthicalHacking #Infosec #Phishing #DataProtection #100DaysOfCybersecurity #CyberAwareness
+
+
+
+
+
+
+Ye sab **social engineering attacks** hain, jisme attackers psychological tricks use karke logon se sensitive information nikalne ki koshish karte hain. Samjhne ke liye ek-ek point ko breakdown karte hain:  
+
+### 1️⃣ **Phishing**  
+Attackers **fake emails, messages, ya websites** ka use karte hain taaki log apna **username, password, ya financial details** unhe de dein.  
+🛡 **Bachav ka tarika:**  
+✅ **Email me URL check karein**, agar kuch alag lage (spelling mistake, extra characters, ya unknown sender) to uspe click mat karein.  
+✅ **Fake login pages se bachein** – hamesha manually website ka URL type karein.  
+
+### 2️⃣ **Shoulder Surfing**  
+Ye tab hota hai jab **koi aapka screen ya keyboard ka data dekh raha hota hai** bina aapke permission ke. Public places me zyada hota hai.  
+🛡 **Bachav ka tarika:**  
+✅ **Privacy screen filters** use karein.  
+✅ **Apni screen aur passwords ko cover karein jab enter kar rahe ho.**  
+
+### 3️⃣ **Tailgating & Piggybacking**  
+Ye **physical security breach** hai, jisme ek **unauthorized person bina permission ke kisi authorized person ke saath enter kar jata hai.**  
+🛡 **Bachav ka tarika:**  
+✅ **Access cards ya biometric security enforce karein.**  
+✅ **Strangers ko bina verification ke andar na aane dein.**  
+
+### 4️⃣ **Dumpster Diving**  
+Attackers **trash bins ya dustbins me documents, receipts, ya hard drives dhundh kar sensitive information nikal sakte hain.**  
+🛡 **Bachav ka tarika:**  
+✅ **Har sensitive document ko shred karein.**  
+✅ **Digital data securely delete karein (wiping software use karein).**  
+
+Agar koi aur doubt ho to batao! 😊
