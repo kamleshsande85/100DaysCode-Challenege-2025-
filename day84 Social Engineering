@@ -1,3 +1,10 @@
 🔐 Day 84 - #100DaysOfCode | Cybersecurity Awareness 🔐
 
 Today, I explored social engineering attacks and how they exploit human psychology to gain unauthorized access to sensitive information. Here are some key takeaways:
+✅ Phishing: Attackers create fake emails and websites to steal login credentials. Always verify URLs and avoid clicking suspicious links.
+
+👀 Shoulder Surfing: Unauthorized individuals can peek at your screen or keyboard in public places. Using privacy filters and staying aware of your surroundings helps prevent this.
+
+🚪 Tailgating & Piggybacking: Attackers gain physical access by following someone into a restricted area. Implementing access control measures like visitor badges and biometric authentication can mitigate this risk.
+
+🗑️ Dumpster Diving: Sensitive information discarded in the trash can be retrieved and misused. Always shred documents and use secure deletion tools for digital data.
