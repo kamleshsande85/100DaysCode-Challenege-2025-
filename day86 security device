@@ -22,3 +22,13 @@ Many network devices (routers, switches, firewalls) come with default usernames 
 A MAC address is a device’s unique hardware address. Many networks use MAC filtering to block unauthorized devices.
 🚨 Risk: MAC addresses can be spoofed (changed using software), allowing an attacker to bypass this security.
 ✅ Better approach: Use multi-factor authentication and encryption instead of relying solely on MAC filtering.
+🔹 6. Key Management Systems (KMS): Secure Your Keys
+
+Encryption keys, SSH keys, and SSL certificates must be properly managed to prevent unauthorized access.
+🔑 A Key Management System (KMS) helps:
+
+    Track when keys expire
+
+    Rotate/revoke keys when needed
+
+    Monitor who is using the keys and for what purpose
