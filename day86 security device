@@ -1,3 +1,24 @@
 🔐 Day 86/100 - #100DaysOfCode 🚀
 
 Today, I explored device security and network protection to understand how to secure computing devices from potential threats. Here are my key takeaways:
+🔹 1. Open Ports: The Hidden Entry Points
+
+Every network-based service runs on a specific port number (e.g., HTTP → Port 80, SSH → Port 22). If a service is not in use, keeping the port open is a security risk. Attackers can scan for open ports and exploit vulnerabilities.
+🛡 Solution: Regularly check for open ports using tools like nmap and close any unused ones.
+🔹 2. Firewalls: Your First Line of Defense
+
+A firewall helps control which devices or services can communicate with your system. You can configure rules to allow or deny traffic based on IP addresses, ports, or applications.
+✅ Example: Allow only your internal network to access a database server while blocking external access.
+🔹 3. Default Credentials = Easy Target
+
+Many network devices (routers, switches, firewalls) come with default usernames and passwords like admin/admin. Attackers know these defaults and can use them to gain access.
+🛡 Solution: Change all default credentials immediately after setup. Check routerpasswords.com to see if your device's default login is public knowledge.
+🔹 4. Port Security & Network Access Control (NAC)
+
+🔐 Port Security (used in network switches) ensures that only authorized devices can connect. It works by binding MAC addresses to specific switch ports, preventing unauthorized access.
+🔑 Network Access Control (802.1X) adds authentication, requiring users to log in before accessing the network.
+🔹 5. MAC Filtering: Not Foolproof
+
+A MAC address is a device’s unique hardware address. Many networks use MAC filtering to block unauthorized devices.
+🚨 Risk: MAC addresses can be spoofed (changed using software), allowing an attacker to bypass this security.
+✅ Better approach: Use multi-factor authentication and encryption instead of relying solely on MAC filtering.
