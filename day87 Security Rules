@@ -2,3 +2,12 @@
 
 Another day of deep diving into network security! 🔥 Today, I focused on firewall rules, ACLs, URL filtering, security zones, and screened subnets (DMZs).
 These concepts are fundamental for securing networks and preventing unauthorized access.
+🔍 What I Learned Today:
+
+✅ Access Control Lists (ACLs): Defined rules to allow or deny network traffic based on IP, ports, protocols, and time.
+✅ Firewall Rule Processing: Firewalls process rules top-to-bottom, so specific rules should always come first!
+✅ Implicit Deny Principle: If no rule explicitly allows traffic, it is automatically denied—a critical security measure.
+✅ URL Filtering: Blocking unwanted or malicious websites using allowlists and blocklists.
+✅ Content Filtering: Preventing data leaks, malware, and unauthorized content transfer across the network.
+✅ Screened Subnets (DMZs): Creating a buffer zone between public and internal networks for web & email servers.
+✅ Security Zones: Grouping different network segments into trusted, untrusted, and restricted zones for better access control.
