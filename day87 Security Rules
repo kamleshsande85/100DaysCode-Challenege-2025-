@@ -11,3 +11,20 @@ These concepts are fundamental for securing networks and preventing unauthorized
 ✅ Content Filtering: Preventing data leaks, malware, and unauthorized content transfer across the network.
 ✅ Screened Subnets (DMZs): Creating a buffer zone between public and internal networks for web & email servers.
 ✅ Security Zones: Grouping different network segments into trusted, untrusted, and restricted zones for better access control.
+💡 Key Takeaways:
+
+🔹 A strong firewall policy is crucial for preventing cyber threats.
+🔹 Layered security (ACLs + Firewalls + Filtering) provides better protection.
+🔹 Network segmentation improves security and reduces attack surfaces.
+🔹 Automation & monitoring are necessary to keep security policies up to date.
+🚀 Next Steps:
+
+🔸 Implementing firewall rules on a virtual network.
+🔸 Testing different ACL configurations in a lab environment.
+🔸 Learning about Next-Gen Firewalls & Intrusion Detection Systems (IDS).
+
+Cybersecurity is a never-ending learning process, and every day brings new challenges & opportunities to grow! 💻🔐
+
+How do you secure your network? Let’s discuss in the comments!👇
+
+#CyberSecurity #Networking #Firewalls #EthicalHacking #100DaysOfCode #Tech #NetworkSecurity #InfoSec #Learning #SecurityAwareness #Hacking
