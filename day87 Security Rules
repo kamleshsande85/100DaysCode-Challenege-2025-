@@ -28,3 +28,48 @@ Cybersecurity is a never-ending learning process, and every day brings new chall
 How do you secure your network? Let’s discuss in the comments!👇
 
 #CyberSecurity #Networking #Firewalls #EthicalHacking #100DaysOfCode #Tech #NetworkSecurity #InfoSec #Learning #SecurityAwareness #Hacking
+
+
+
+
+
+Ye document **Network Security Rules and Concepts** ke key points summarize karta hai jo **CompTIA Network+ N10-009 - 4.3** se liye gaye hain. Isme **network security** ke important aspects cover kiye gaye hain, jo kisi bhi IT ya security team ke liye zaroori hote hain.  
+
+### **Main Points Samajhne ke Liye:**
+
+1. **Access Control Lists (ACLs)**  
+   - ACL ek list hoti hai jo decide karti hai ki kaunsa traffic allowed hai aur kaunsa blocked.  
+   - Ye source/destination IP, port, time, ya application ke base par traffic ko filter kar sakti hai.  
+   - Firewalls, routers aur OS me ACLs use hoti hain.
+
+2. **Firewall Rule Processing & Implicit Deny**  
+   - Firewall **top-to-bottom** order me rules check karta hai.  
+   - **Specific rules pehle hone chahiye** taaki unka priority mile.  
+   - **Implicit Deny** ka matlab hai ki agar koi rule match nahi hota, toh traffic automatically block ho jata hai.
+
+3. **Firewall Rules Example:**  
+   - **Allowed:** SSH (port 22), HTTP (port 80), HTTPS (port 443), RDP (port 3389), DNS (port 53), NTP (port 123).  
+   - **Denied:** ICMP (Ping) requests.
+
+4. **URL Filtering:**  
+   - Specific URLs ya categories (e.g., hacking sites, social media) ko allow/block karne ka system.  
+   - Bypass hone se bachne ke liye firewall ke sath integrate kiya jata hai.
+
+5. **Content Filtering:**  
+   - Data ke actual content ko check karta hai, sirf URL nahi.  
+   - Internal documents ya sensitive data leak hone se rokne ke liye use hota hai.  
+   - Antivirus/Antimalware bhi content filtering ka ek part hai.
+
+6. **Screened Subnets (DMZs):**  
+   - **DMZ ek alag network zone hota hai jo public access ke liye bana hota hai.**  
+   - Web servers ya email servers ko yahan rakhte hain taaki internal network safe rahe.  
+
+7. **Security Zones:**  
+   - Networks ko different **trust levels** me divide karne ka tarika.  
+   - Example: **Trusted Zone, Untrusted Zone, Server Zone, Database Zone, Internet Zone, DMZ Zone.**  
+   - Policies aur firewall rules ko **simplify** karta hai.  
+
+### **Conclusion:**  
+Ye sabhi security techniques **layered security** ka part hain, jisme ACLs, firewall rules, filtering, aur security zones milkar **network ko protect** karte hain. Har organization ko in concepts ka sahi implementation karna chahiye taaki unauthorized access aur cyber attacks ko roka ja sake.  
+
+Agar kisi specific part par aur explanation chahiye toh batao! 😊
