@@ -3,3 +3,8 @@
 Today, I explored Django, its directory structure, and how it works! 🏗️💡
 
 Django is a powerful Python web framework that follows the MVT (Model-View-Template) pattern, making web development faster and more organized. I learned:
+✅ The purpose of key files like settings.py, urls.py, views.py, and models.py
+✅ How Django manages static files, templates, and databases
+✅ The command-line tools that make development easier (django-admin, manage.py)
+
+To solidify my understanding, I built a simple Django project where users can submit feedback, and it's stored in a SQLite database. This hands-on practice really helped me grasp the framework!
