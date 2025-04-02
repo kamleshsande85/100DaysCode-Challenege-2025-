@@ -4,3 +4,60 @@ What We Learned Today:
 Network troubleshooting is a systematic approach to diagnosing and resolving network issues efficiently. Whether it's slow connections, downtime, or misconfigurations, following a structured methodology helps in identifying and fixing problems quickly.
 
 Today, I explored the 7-step network troubleshooting process, which ensures smooth network operations and enhances cybersecurity defenses.
+7 Steps of Network Troubleshooting:
+
+🔹 1. Identifying the Problem
+
+    Observe the issue: Is the network slow, disconnected, or behaving abnormally?
+
+    Gather information from users and system logs.
+
+    Check recent changes (cable movement, power issues, configuration updates).
+
+🔹 2. Establishing a Theory
+
+    Develop possible reasons for the problem.
+
+    Start with the simplest explanation (e.g., loose cable, misconfigured settings).
+
+    Use a structured method like OSI model analysis (Top-down or Bottom-up).
+
+🔹 3. Testing the Theory
+
+    Create a plan to verify if the suspected cause is correct.
+
+    Conduct tests in a lab environment if possible.
+
+    Analyze results: If the issue persists, refine or change the theory.
+
+🔹 4. Establishing a Plan of Action
+
+    Identify the best solution based on test results.
+
+    Plan how to implement the fix with minimal disruption.
+
+    Prepare a backup plan in case something goes wrong.
+
+🔹 5. Implementing the Plan
+
+    Apply the solution during a scheduled maintenance window (if needed).
+
+    Collaborate with the operations team for execution.
+
+    Ensure no additional issues arise after the fix.
+
+🔹 6. Verifying Full System Functionality
+
+    Confirm with users that the issue is resolved.
+
+    Check that all network services are running properly.
+
+    Implement preventative measures to avoid similar issues in the future.
+
+🔹 7. Documenting Findings
+
+    Record the troubleshooting steps and resolution.
+
+    Store the information in a knowledge base for future reference.
+
+    Share insights with the team to improve overall network management.
