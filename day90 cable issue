@@ -3,3 +3,9 @@
 🔌 Deep Dive into Networking: Fiber Optic vs. Copper Cables
 
 Excited to share my learnings from Day 90 of my #100DaysOfCode journey! Today, I explored the fascinating world of network cables—understanding their types, standards, and best practices.
+Key Takeaways:
+
+✔ Fiber Optic Cables → Use light for data transmission (Single Mode vs. Multimode).
+✔ Copper Cables (Ethernet) → Cat5e, Cat6, Cat6a – each with different speeds & use cases.
+✔ Common Issues → Crosstalk (NEXT/FEXT), Attenuation, and termination errors.
+✔ Standards Matter! → TIA defines cable categories, while IEEE sets Ethernet standards.
