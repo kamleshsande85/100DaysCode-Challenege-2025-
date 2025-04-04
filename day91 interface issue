@@ -1,3 +1,9 @@
 🔐 Day 91/100 — hashtag#100DaysOfCode
 Today's focus: Network Interface Monitoring & Management
 
+Key Concepts Covered:
+Continuous monitoring using SNMP and MIB-II
+Interface performance metrics: link status, utilization, CRC errors, runts, giants, drops
+Troubleshooting techniques: bandwidth testing, analyzing Ethernet frame structure
+Admin vs. automatic interventions:
+Administratively disabled interfaces (manual)
