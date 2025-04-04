@@ -7,3 +7,8 @@ Interface performance metrics: link status, utilization, CRC errors, runts, gian
 Troubleshooting techniques: bandwidth testing, analyzing Ethernet frame structure
 Admin vs. automatic interventions:
 Administratively disabled interfaces (manual)
+Error-disabled interfaces (auto due to issues like flapping, config mismatch)
+Suspended state at interface activation (e.g., LACP mismatch)
+Long-term adjustments in network design based on consistent interface stats
+Visualized the entire process in a flowchart for better clarity and revision.
+hashtag#CyberSecurity hashtag#NetworkMonitoring hashtag#NetworkManagement hashtag#SNMP hashtag#Linux hashtag#Pyth
