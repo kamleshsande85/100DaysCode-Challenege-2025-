@@ -1,3 +1,26 @@
  #100DaysOfCode – Day 92: Tackling Hardware Issues in Networking
 
 Ever struggled with Power over Ethernet (PoE) or fiber optic transceivers? Here’s what I learned today:
+🔌 Power over Ethernet (PoE) Pitfalls:
+
+    Not all PoE standards are equal! 802.3af (15W) ≠ 802.3at (25W) ≠ 802.3bt (71W).
+
+    Pro Tip: Always check your switch’s PoE budget before connecting devices—exceeding it can crash your network!
+
+📡 Fiber Optic Woes:
+
+    Mismatched transceivers? Say hello to signal loss!
+
+        Multimode fiber (850nm) ≠ Single-mode (1310/1550nm).
+
+    Power budget math is key:
+    Copy
+
+    Received Power (dBm) = Transmitted Power - Cable Loss  
+
+    If your received power < receiver sensitivity (e.g., -20dBm), expect errors!
+
+Lesson: Hardware isn’t "plug and play"—compatibility and calculations matter!
+
+🤔 Ever faced a PoE or fiber issue? Share your stories below!
+#Networking #Hardware #TechTips #LearningInPublic
