@@ -12,3 +12,12 @@ At the MAC layer, frames have no "timeout" mechanism—they’ll loop forever un
     Elects a Root Bridge (lowest Bridge ID wins!).
 
     Blocks redundant paths but keeps them as backups.
+🔹 Common Pitfalls in Switching:
+1️⃣ VLAN Mismatch → Devices can’t talk if ports are in different VLANs.
+2️⃣ ACL Misconfigs → Accidentally blocking legit traffic? Always disable ACLs before editing!
+
+💡 Key Takeaway: A well-configured STP + proper VLAN/ACL checks = Stable, loop-free network!
+
+📚 Learning from CompTIA Network+ N10-009. Onward to Day 94!
+
+#Networking #CCNA #CompTIA #NetworkEngineer #STP #CyberSecurity #TechLearning
