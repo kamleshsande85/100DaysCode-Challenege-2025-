@@ -2,3 +2,13 @@
 🔥 Switching Issues & Loop Prevention in Networks 🔥
 
 Today, I dove deep into network switching, learning why loops can crash a network and how Spanning Tree Protocol (STP) saves the day! Here’s a quick breakdown:
+🔹 Why Loops Are Dangerous?
+At the MAC layer, frames have no "timeout" mechanism—they’ll loop forever until you unplug a cable! This can overwhelm switches and bring the network to a halt.
+
+🔹 How STP Prevents Disasters?
+
+    Uses BPDUs (Bridge Protocol Data Units) to detect loops.
+
+    Elects a Root Bridge (lowest Bridge ID wins!).
+
+    Blocks redundant paths but keeps them as backups.
