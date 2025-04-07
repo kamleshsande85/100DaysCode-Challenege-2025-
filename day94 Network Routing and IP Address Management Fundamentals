@@ -24,3 +24,69 @@ Understanding routing helps troubleshoot why your Netflix won’t load (😉) an
 To the tech communities & mentors who make complex topics like this easier to grasp! Onward to Day 95!
 
 #Networking #Routing #DHCP #ITInfrastructure #KeepLearning #DevOps
+
+
+
+
+
+आपको यह डॉक्यूमेंट हिंदी-इंग्लिश मिक्स (Hinglish) में समझाता हूँ:  
+
+---
+
+### **1. Routing Tables का काम**  
+- **Routing table** एक राउटर का "roadmap" होता है जो यह decide करता है कि network traffic को आगे किस रास्ते (next hop) से भेजना है।  
+- अगर routing table में किसी destination का route नहीं मिलता, तो router traffic को drop कर देता है और sender को **"ICMP host unreachable"** error भेज सकता है।  
+- Troubleshooting करते समय, हर router की routing table check करनी चाहिए—सिर्फ forward path ही नहीं, return path भी important है।  
+- बड़े networks में, routes को summarize करके **default route (0.0.0.0/0)** का इस्तेमाल किया जाता है, जिसे **"gateway of last resort"** भी कहते हैं।  
+
+---
+
+### **2. Default Gateway और Gateway of Last Resort**  
+- **Default route** वो backup option होता है जब routing table में कोई specific route नहीं मिलता।  
+- इसे manually **static route** के तौर पर configure किया जाता है, जैसे:  
+  ```bash
+  Destination: 0.0.0.0/0 (सभी IPs के लिए)  
+  Next Hop: 10.10.50.2 (जिस router पर traffic भेजना है)  
+  ```  
+- Example: अगर आपका router internet से जुड़ा है, तो सारा "unknown" traffic default route के through बाहर भेजा जाएगा।  
+
+---
+
+### **3. DHCP और IP Addressing Issues**  
+- **APIPA (Automatic Private IP Addressing):**  
+  - अगर कोई device (जैसे laptop) DHCP से IP नहीं ले पाता, तो वो खुद को **169.254.x.x** जैसा APIPA address दे देता है।  
+  - इससे सिर्फ local network पर communicate हो पाता है, internet या दूसरे networks पर नहीं।  
+  - **Solution:** DHCP server check करें—शायद IP addresses खत्म (exhausted) हो गए हों या DHCP server down है।  
+
+- **DHCP Lease Time:**  
+  - अगर network में users कम समय के लिए आते-जाते हैं (जैसे café), तो **lease time कम कर दें** ताकि IPs जल्दी free हो जाएँ।  
+
+- **Duplicate IPs का मसला:**  
+  - यह तब होता है जब दो devices का एक ही IP हो (जैसे कोई manually static IP डाल दे और वही IP DHCP से किसी और को मिल जाए)।  
+  - Modern systems खुद detect कर लेते हैं और error दिखाते हैं।  
+  - **Fix करने के लिए:**  
+    1. Duplicate IP को ping करके उसका MAC address पता करें (`arp -a` command से)।  
+    2. फिर switch पर MAC address table check करके पता लगाएँ कि device किस port से जुड़ा है।  
+    3. अगर कोई **rogue DHCP server** (अनधिकृत DHCP) चल रहा है, तो packet capture करके उसे ढूंढें।  
+
+---
+
+### **4. Basic Network Troubleshooting Steps**  
+1. **अपने device का IP check करें:**  
+   - `ipconfig` (Windows) / `ifconfig` (Linux/Mac) से देखें कि सही IP मिला है या नहीं।  
+2. **Default gateway को ping करें:**  
+   - `ping 192.168.1.1` (अगर gateway respond नहीं करता, तो router issue हो सकता है)।  
+3. **Internet/Remote server को ping करें:**  
+   - `ping 8.8.8.8` (Google DNS) से check करें कि internet access है या नहीं।  
+4. **Traceroute करें:**  
+   - `tracert google.com` (Windows) / `traceroute google.com` (Linux/Mac) से पता करें कि कहाँ traffic रुक रहा है।  
+
+---
+
+### **Conclusion:**  
+- **Routing tables** और **default gateway** सही configure होने चाहिए।  
+- **DHCP server** में IPs खत्म न हों, इसके लिए **lease time** manage करें।  
+- **Duplicate IPs** से बचने के लिए static IPs carefully assign करें और rogue DHCP servers को monitor करें।  
+- Basic troubleshooting (ping, ipconfig, traceroute) से ज्यादातर problems का पता लगाया जा सकता है।  
+
+अगर कोई specific point समझ नहीं आया हो, तो बताइए! 😊
