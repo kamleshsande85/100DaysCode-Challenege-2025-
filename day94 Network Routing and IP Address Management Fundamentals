@@ -17,3 +17,10 @@
     No DHCP response? Your PC panics and assigns itself a 169.254.x.x (APIPA) address—works locally but no internet for you! 😅
 
     Duplicate IPs? Chaos ensues! Pro tip: Always ping an IP before assigning it statically.
+💡 Why It Matters:
+Understanding routing helps troubleshoot why your Netflix won’t load (😉) and how enterprises manage global networks.
+
+🙏 Shoutout:
+To the tech communities & mentors who make complex topics like this easier to grasp! Onward to Day 95!
+
+#Networking #Routing #DHCP #ITInfrastructure #KeepLearning #DevOps
