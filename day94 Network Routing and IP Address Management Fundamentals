@@ -1,3 +1,19 @@
 🚀 #100DaysOfCode Challenge - Day 94: Demystifying Network Routing! 🌐
 
 94 days of code, 94 days of breaking barriers! Today, I dove deep into network routing concepts—the backbone of how data travels across the internet! 💡
+🔍 What I Learned:
+✔ Routing Tables = Internet GPS 🗺️
+
+    Routers use these tables to decide the best path for data packets (like choosing the fastest highway for your trip!).
+
+    Missing route? Traffic gets dropped with an "ICMP Host Unreachable" error. Ouch!
+
+✔ Default Gateway = The "Plan B" Route 🤝
+
+    When a router doesn’t know where to send traffic, it uses the gateway of last resort (0.0.0.0/0)—like a safety net for lost packets!
+
+✔ DHCP Drama: APIPA & Duplicate IPs ⚠️
+
+    No DHCP response? Your PC panics and assigns itself a 169.254.x.x (APIPA) address—works locally but no internet for you! 😅
+
+    Duplicate IPs? Chaos ensues! Pro tip: Always ping an IP before assigning it statically.
