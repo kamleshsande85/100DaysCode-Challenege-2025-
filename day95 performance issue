@@ -1,1 +1,7 @@
 🔍 Debugging Network Performance Issues – Key Lessons!
+Common Performance Killers & Fixes:
+
+1️⃣ Bottlenecks: That one slow server/database dragging everything down? Solution: Monitor metrics (CPU, RAM, I/O) & optimize queries.
+2️⃣ High Latency: Laggy API calls? Check: DNS resolution, server location, and CDN usage.
+3️⃣ Packet Loss/Jitter: VoIP/video stuttering? Fix: QoS policies & bandwidth management.
+4️⃣ Bandwidth Saturation: Congested links? Upgrade: NICs, switches, or use load balancers.
