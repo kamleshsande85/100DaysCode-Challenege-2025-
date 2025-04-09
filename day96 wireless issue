@@ -2,3 +2,28 @@
 
 What I Learned Today:
 Dived deep into Wireless Network Management—frequency interference, optimizing throughput, signal coverage, security risks, and seamless roaming. Key takeaways:
+📡 Frequency Management:
+
+    2.4 GHz (only 3 non-overlapping channels!) vs. 5 GHz/6 GHz (more channels, less interference).
+
+    Auto vs. manual channel selection—critical for reducing overlap.
+
+⚡ Optimizing Performance:
+
+    Disable legacy protocols (like 802.11b/g) for better speed.
+
+    Latest Wi-Fi standards (Wi-Fi 6/6E) = max throughput.
+
+📶 Signal Coverage Tips:
+
+    Use Wi-Fi analyzers & heat maps for dead zones.
+
+    Adjust power levels, add external antennas, and minimize coax cable length.
+
+🔒 Security Best Practices:
+
+    Upgrade to WPA3 to prevent disassociation attacks.
+
+    Consistent SSID & security settings across APs for smooth roaming.
+
+Excited to apply these concepts in real-world networking setups! 💻🌐
