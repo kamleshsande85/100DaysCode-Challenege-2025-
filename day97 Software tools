@@ -1,3 +1,23 @@
 Network Diagnostic and Discovery Tools | day97/100
 Today I demystified network monitoring tools - here's why every developer should understand them:
 
+🕵️ 1. Wireshark - The Network Detective
+Think of it as a "microscope for network traffic"
+Captures every packet (data unit) flowing through your network
+Reveals hidden problems: "Why is my app slow? Is the server not responding or is there network congestion?"
+🔍 2. Nmap - The Network Explorer
+Like "Google Maps for your network"
+Scans all devices ("Hey, I didn't know this printer was on our network!")
+Identifies open ports (digital doors) - crucial for security
+🤝 3. CDP/LLDP - The Silent Communicators
+Switches automatically share their info: "Hi neighbor! I'm Switch-5, VLAN 10, port 24"
+Creates a self-updating network map (no manual documentation needed!)
+📊 4. Speed Testing - The Network Health Check
+Like a "treadmill test for your internet connection"
+Proves whether you're getting what you pay for from your ISP
+
+Why This Matters to Developers:
+Build better apps when you understand the network layer
+Debug faster when you can isolate network vs code issues
+Security starts with knowing what's on your network
+
