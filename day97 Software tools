@@ -84,3 +84,72 @@ hashtag#DevOps hashtag#NetworkEngineering hashtag#FullStackDevelopment hashtag#T
 - बिना लॉगिन किए नेटवर्क स्विच की कॉन्फिगरेशन समझी जा सकती है
 
 इन टूल्स को सीखकर और इस्तेमाल करके नेटवर्क प्रशासक नेटवर्क को बेहतर तरीके से मैनेज और समस्याओं का समाधान कर सकते हैं।
+
+
+
+
+
+
+
+
+
+
+
+
+
+Briefing Document: Network Monitoring and Discovery Tools
+
+Date: October 26, 2023 Source: Excerpts from "Software Tools - CompTIA Network+ N10-009 - 5.5" Prepared For: Network Administrators and IT Professionals Subject: Overview of Essential Software Tools for Network Analysis and Discovery
+
+Executive Summary:
+
+This briefing document summarizes key software tools and protocols essential for network administrators to diagnose performance issues, gather network intelligence, and identify devices. The source material emphasizes the importance of tools like protocol analyzers (e.g., Wireshark), network mappers (e.g., Nmap), and discovery protocols (CDP and LLDP) in understanding network behavior and topology. Additionally, it highlights the utility of bandwidth speed testing for evaluating network link performance.
+
+Main Themes and Important Ideas/Facts:
+
+1. Protocol Analyzers for Network Troubleshooting:
+
+    When users report slow network performance, the issue often lies in specific communication segments rather than the entire network.
+    Protocol analyzers are crucial for capturing and interpreting network traffic ("capture frames that are on a wired or wireless network and present the results of those frames in a format that a human being can understand.").
+    This capture functionality can be integrated into network devices (switches, routers, firewalls) or accessed through dedicated tools like Wireshark.
+    Wireshark offers advanced protocol decoding and detailed insights into network conversations.
+    Capturing all packets for later "big data analysis" allows for in-depth investigation of network issues and security incidents.
+
+2. Nmap for Network Mapping and Device Discovery:
+
+    Nmap (Network Mapper) is a powerful tool for actively scanning networks to gather information about devices without requiring login access.
+    Key capabilities of Nmap include:
+    Identifying open port numbers ("it could return information such as all of the open port numbers that may be available on that remote device.").
+    Determining operating systems and their versions ("find information about operating systems, what type of operating system is on a device, what version of operating system is on a device.").
+    Discovering services running on open ports ("not only are you able to tell that there's an open port. You're able to tell what service is running on that open port.").
+    Nmap utilizes an active scanning approach, sending queries to devices and analyzing the responses.
+    It can scan individual devices or entire IP address ranges to build a network map.
+    Nmap is valuable for identifying unexpected ("rogue") devices on the network.
+    Its Layer 2 scanning capability on the same subnet makes it difficult for devices to remain hidden.
+    An example Nmap scan result shows open ports (22 for SSH, 80 for HTTP, 443 for HTTPS, etc.) on a target device, highlighting the information gained.
+    Unexpected open ports discovered by Nmap warrant further investigation into the services running on them.
+
+3. Discovery Protocols (CDP and LLDP) for Switch Information:
+
+    Visually inspecting a switch provides limited information about connected devices, VLAN assignments, or IP addresses.
+    Discovery protocols automate the gathering of this information.
+    Cisco Discovery Protocol (CDP) is a proprietary Cisco protocol that provides details about connected Cisco devices ("Although this is very specific to Cisco devices, it can provide a lot of information about the configurations of that switch without having to log in to the device itself.").
+    Link Layer Discovery Protocol (LLDP) is a vendor-neutral alternative supported by almost all switches ("And almost all switches support LLDP at a minimum so that you can start to gather information about how that device has been configured.").
+    These protocols reveal information such as IP addresses, port numbers, software versions, native VLANs, and hardware configurations of connected switches.
+    Protocol decodes of CDP and LLDP packets illustrate the type of information exchanged, including IP addresses associated with specific interfaces, the switch name, and VLAN IDs.
+    Utilizing both CDP and LLDP provides comprehensive insight into switch configurations without direct login.
+    Third-party applications can leverage these protocols to present network topology information in a consolidated view.
+
+4. Bandwidth Speed Testing for Link Performance Evaluation:
+
+    Testing internet bandwidth is crucial for understanding the available capacity of a network link.
+    Speed tests involve sending and receiving large amounts of data to measure upload and download speeds ("send a lot of information over the link and measure how long it took to send that information, both in a download and an upload form.").
+    Performing speed tests before and after network changes helps assess the impact of those changes.
+    Bandwidth availability can vary depending on the time of day.
+    Accuracy of speed test results can differ based on the location and potential bandwidth limitations of the test server.
+    ISPs often provide the most accurate speed test sites for their respective networks (e.g., Xfinity Speed Test, AT&T Speed Test) as they are geographically closer and less likely to be constrained.
+    Reliable third-party speed test sites include Fast.com, SpeedOf.Me, speedtest.net, and testmy.net.
+
+Conclusion:
+
+The tools and protocols discussed are fundamental for effective network administration. Protocol analyzers aid in diagnosing performance bottlenecks by examining network traffic. Nmap provides essential intelligence about network devices, their configurations, and active services. Discovery protocols like CDP and LLDP offer valuable insights into network switch topology. Finally, bandwidth speed testing allows administrators to assess and monitor the performance of network links. Mastery of these tools empowers network administrators to proactively manage and troubleshoot network environments effectively.
