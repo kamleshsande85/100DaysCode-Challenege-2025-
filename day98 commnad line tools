@@ -10,3 +10,9 @@ Command Line Network Tools | day98/100
 📦 tcpdump: Captured live network packets on Linux/macOS, saving them in pcap format for analysis (think Wireshark compatibility). Filtering traffic makes it a powerful diagnostic tool.
 
 📊 netstat: Displayed active connections, ports, and network stats. Options like -a (all connections) and -n (numeric IPs) helped me see exactly what’s communicating on my system.
+⚙️ ipconfig/ifconfig/ip addr: Revealed local IP configs. ipconfig on Windows showed IPv4/IPv6 details, while ifconfig and ip addr on Linux/macOS listed MAC addresses and more—key for verifying network setups.
+
+🔗 arp -a: Viewed the ARP cache, mapping local subnet IP addresses to MAC addresses. Pinging a device adds it to the cache, making this handy for identifying nearby devices.
+
+Each tool brings unique insights to network diagnostics, and I’m loving how they work across Windows, Linux, and macOS! 💻 Onward to mastering the terminal!
+hashtag#CodingJourney hashtag#NetworkTools hashtag#CommandLine hashtag#TechL
