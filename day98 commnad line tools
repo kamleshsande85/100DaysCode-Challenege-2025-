@@ -1,3 +1,12 @@
 Command Line Network Tools | day98/100
 🌐 Today, I dug into a suite of command-line network tools that are essential for mastering network troubleshooting. Here’s what I explored:
 
+🔍 ping: Used ICMP to test if a device is reachable. It measures round-trip time and flags timeouts if a host isn’t responding—perfect for quick connectivity checks!
+
+🛤️ traceroute/tracert: Traced packet paths to a destination, revealing each router hop with TTL-based ICMP messages. It’s great for pinpointing where network issues occur, though firewalls might hide some hops (hello, asterisks!).
+
+📡 nslookup/dig: Queried DNS servers to resolve domain names to IP addresses. dig is the modern go-to, showing A records and more, helping troubleshoot DNS issues like a pro.
+
+📦 tcpdump: Captured live network packets on Linux/macOS, saving them in pcap format for analysis (think Wireshark compatibility). Filtering traffic makes it a powerful diagnostic tool.
+
+📊 netstat: Displayed active connections, ports, and network stats. Options like -a (all connections) and -n (numeric IPs) helped me see exactly what’s communicating on my system.
