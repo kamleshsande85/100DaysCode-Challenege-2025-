@@ -69,3 +69,42 @@ Is baar “timeline” ka matlab **samay ke events** nahi hai jaise history mein
 ---
 
 Agar tum chaho toh mai isko aur simple slide format ya PDF format mein bhi bana sakta hoon. Ya kisi specific topic ka CLI practice bhi kara sakta hoon. Bolo?
+
+
+
+
+
+Timeline of Main Events (Based on the Provided Source)
+
+The provided source focuses on the fundamental aspects of managing network devices, primarily switches and routers, through their command-line interfaces (CLIs). It doesn't describe historical events but rather outlines common tasks and concepts encountered by network professionals. Therefore, a traditional timeline of events isn't applicable. Instead, we can create a "Process Timeline" outlining the typical workflow and actions described:
+
+Process Timeline: Managing Network Devices via CLI
+
+    Initial Job & Equipment Familiarization: A network professional typically starts by working with network equipment from major providers and becomes familiar with their specific CLI.
+    Cross-Vendor Management: The professional encounters equipment from various manufacturers and learns that while syntax differs, the underlying concepts and command structures are often similar.
+    Troubleshooting Switching Issues: When investigating traffic flow problems or MAC address table limitations on a switch, the show mac-address-table command is used to view the learned MAC addresses and associated ports.
+    Diagnosing Routing Problems: To understand the path traffic takes across a network, the show route command is employed on routers to examine the routing table and identify the next hops and exit interfaces for specific networks.
+    Investigating Interface Issues: When concerned about link status, speed, duplex, or errors on a network interface, the show interface command is used to gather detailed information about its operational state and performance.
+    Reviewing Device Configuration: To understand the current settings and parameters of a network device (switch or router), the show config (or show running-config on Cisco devices) command is used to display the active configuration.
+    Verifying IP-to-MAC Address Mappings: To determine if a switch or router knows the MAC address associated with a particular IP address, the show arp command is used to view the Address Resolution Protocol (ARP) cache.
+    Managing VLAN Configurations: When working with switches that segment the network using Virtual Local Area Networks (VLANs), the show vlan command is used to list the configured VLANs and the interfaces assigned to each.
+    Monitoring Power over Ethernet (PoE): On PoE-enabled switches, the show power command is used to monitor the power status of interfaces, the power consumption of connected devices, and the total available power on the switch.
+    Configuration Modification (Mentioned Contextually): Although not a "view" command, the text mentions that configurations can be changed at the command line after reviewing them.
+
+Cast of Characters (Principal People Mentioned)
+
+The provided source is a technical explanation and does not mention specific individuals by name. The "characters" in this context are the implied roles and entities involved in network management:
+
+    Network Professional: The individual who is working with the network equipment, using the command-line interface to manage and troubleshoot devices. Their actions and learning process are the central focus of the text.
+    Major Providers of Network Equipment: Companies that manufacture and sell networking devices like switches and routers (e.g., Cisco, Juniper, HP Enterprise, etc.). Their command-line interfaces are what the network professional will interact with.
+    Manufacturers (Different/Other): Companies besides the "major providers" that also produce network equipment. The text highlights the similarities in command-line basics across these different vendors.
+    Cisco: A specific major provider of network equipment whose command syntax (show mac-address-table, show route, show running-config) is explicitly used as an example throughout the explanation.
+
+Brief Bios (Implied Roles):
+
+    Network Professional: A skilled individual responsible for the configuration, maintenance, and troubleshooting of computer networks. They possess knowledge of networking concepts (switching, routing, VLANs, ARP, PoE) and are proficient in using command-line interfaces to interact with network devices from various vendors. They are expected to learn and adapt to different command syntaxes and configurations.
+    Major Providers of Network Equipment: Large technology corporations that design, manufacture, and market a wide range of networking hardware and software. They often establish de facto standard command-line interfaces that other vendors may emulate to some extent.
+    Manufacturers (Different/Other): Companies that contribute to the diversity of the networking equipment market, offering specialized or alternative solutions. While their command-line syntax may vary, they often adhere to fundamental networking principles, leading to similarities in management tasks.
+    Cisco: A leading global technology company renowned for its networking hardware, software, and services. Its command-line interface (IOS) is widely recognized and serves as a common point of reference in the networking industry.
+
+
