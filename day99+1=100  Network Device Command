@@ -18,3 +18,54 @@ For the final stretch, I dove deep into the real-world process of managing netwo
 🔥 100 days of code = 100 steps closer to becoming the network professional I aim to be!
 📣 If you're on a similar journey or just getting started, I’m always happy to connect and collaborate.
 hashtag#100DaysOfCode hashtag#Networking hashtag#CyberSecurity hashtag#Cisco hashtag#Juniper hashtag#NetworkEn
+
+
+
+
+
+Bilkul Kamlesh, chaliye is poore explanation ko simple aur clear way mein samajhte hain.
+
+---
+
+### 🔄 **Yeh Timeline History Nahi Hai, Balki Ek Process Hai**  
+Is baar “timeline” ka matlab **samay ke events** nahi hai jaise history mein hota hai, balki **steps ya phases** hain jo ek network professional karta hai jab wo switches aur routers manage karta hai command-line interface (CLI) ke through.
+
+---
+
+## ⚙️ **Process Timeline: CLI se Network Devices Manage Karne Ka Workflow**
+
+| चरण | काम | Description |
+|------|------|-------------|
+| **1. Initial Job & Familiarization** | Naye device aur commands ko samajhna | Network engineer naye devices pe kaam shuru karta hai, aur CLI (command line interface) ka use seekhta hai. |
+| **2. Cross-Vendor Experience** | Alag-alag manufacturers ke devices par kaam | Alag companies (jaise Cisco, HP) ke device commands thode alag hote hain, par concept same hote hain. |
+| **3. Troubleshooting Switches** | MAC address dekhna | Agar switch mein traffic flow issue ho, toh `show mac-address-table` command se MAC addresses aur ports check karte hain. |
+| **4. Diagnosing Routing Problems** | Route table check karna | Router mein `show route` command se dekha jata hai ki traffic kaunse path se ja raha hai. |
+| **5. Interface Issues** | Interface ki speed, status, errors dekhna | `show interface` command se pata chalta hai link up hai ya nahi, speed kya hai, errors hain ya nahi. |
+| **6. Device Configuration Review** | Device ka current config dekhna | `show config` ya `show running-config` (Cisco ke liye) se current settings milti hain. |
+| **7. ARP Table Checking** | IP se MAC address mapping dekhna | `show arp` command se pata chalta hai ki IP address kaunse MAC se mapped hai. |
+| **8. VLAN Configuration** | VLANs aur unke assigned ports dekhna | `show vlan` command se VLAN list aur kaunse port kis VLAN mein hain, ye pata chalta hai. |
+| **9. PoE Monitoring** | Power Over Ethernet devices dekhna | Agar switch PoE enable hai, toh `show power` se power usage aur availability dekhte hain. |
+| **10. Configuration Modification** | Configuration change karna | Commands ke zariye settings badla ja sakta hai (ye step contextually mention hua hai). |
+
+---
+
+## 🎭 **Cast of Characters (Log jo is process mein hote hain)**
+
+| Role | Kaun hai? | Kya karta hai? |
+|------|------------|----------------|
+| **Network Professional** | Jo device manage karta hai | CLI ka use karta hai switch/router ko troubleshoot karne aur configure karne ke liye. |
+| **Major Providers** | Cisco, Juniper, HP jaise bade vendor | Ye companies hardware provide karti hain aur unki specific CLI hoti hai. |
+| **Other Manufacturers** | Chhoti ya alternative companies | Inka syntax alag ho sakta hai, par concepts mostly same hote hain. |
+| **Cisco (Example)** | Most popular vendor | Cisco ka CLI (IOS) industry standard maana jata hai, isliye iske commands example ke roop mein diye gaye hain. |
+
+---
+
+## 🧑‍💻 **Brief Role Description**
+
+- **Network Professional:** Ye banda ek IT expert hota hai jo networking equipment (switches, routers) ka configuration aur troubleshooting karta hai. Isko CLI commands aur networking ke core concepts (VLANs, ARP, PoE) ki knowledge hoti hai.
+- **Major Vendors:** Ye companies devices aur CLI interfaces design karti hain. Cisco ka interface dusri companies bhi copy karti hain (industry familiarity ke liye).
+- **Cisco:** Cisco ek leading networking company hai jiska IOS (Internetwork Operating System) CLI widely used hai.
+
+---
+
+Agar tum chaho toh mai isko aur simple slide format ya PDF format mein bhi bana sakta hoon. Ya kisi specific topic ka CLI practice bhi kara sakta hoon. Bolo?
