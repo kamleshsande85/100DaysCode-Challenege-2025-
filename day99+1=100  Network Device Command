@@ -2,3 +2,14 @@ Network Device via CLI! | day100
 Today marks the completion of my hashtag#100DaysOfCode journey – and what a ride it has been! 🚀
 
 For the final stretch, I dove deep into the real-world process of managing network devices using Command-Line Interfaces (CLI) — a fundamental skill for every network engineer or cybersecurity enthusiast. 🔧💻
+📚 What I Explored on Day 100:
+ 🔹 Understanding switch & router management via CLI
+ 🔹 Commands like show mac-address-table, show arp, show interface, show vlan, and more
+ 🔹 Troubleshooting network traffic flow and routing issues
+ 🔹 Reviewing live device configurations
+ 🔹 Power over Ethernet (PoE) monitoring
+ 🔹 Working with vendors like Cisco, Juniper, HPE — and learning that while syntax varies, core networking concepts remain universal
+🧑‍💼 Key Roles I Studied:
+ ▪️ The Network Professional (that’s me! 😉)
+ ▪️ Major hardware providers like Cisco
+ ▪️ Real-world scenarios involving cross-vendor equipment
